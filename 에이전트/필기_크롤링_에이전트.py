@@ -177,7 +177,7 @@ def process_post(post):
         f"본 회차의 원문 파일은 `../hwp/{post['folder_name']}/` 에 보관되어 있습니다.\n"
     ]
     for df in sorted(downloaded_files):
-        md_lines.append(f"* [`{df}`](../hwp/{post['folder_name']}/{df})")
+        md_lines.append(f"* [`{df}`](../../hwp/{post['folder_name']}/{df})")
     
     with open(md_file_path, "w", encoding="utf-8") as f:
         f.write("\n".join(md_lines))
