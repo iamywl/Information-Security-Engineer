@@ -1,0 +1,71 @@
+{
+  "exam_name": "정보보안기사 실기 제12회 기출복원",
+  "round": 12,
+  "total_questions": 8,
+  "questions": [
+    {
+      "number": 1,
+      "type": "단답형",
+      "question": "다음의 괄호안에 들어갈 말은?",
+      "extra": "(  괄호  )은(는) 악성 소프트웨어를 뜻하는 멀웨어 (Malware)와 광고(Advertising)의 합성어로 온라인 광고를 통해 악성코드를 유포시키는 행위를 말한다. (  괄호  )은(는) 공격자 측면에서 악성코드를 대량 유포하는데 매우 유리하다. 사용자는 익숙하고 정상적인 사이트에 접속하였음에도 불구하고 정상적인 사이트에 설치된 광고를 통해 Drive-By-Download로 악성코드에 감염될 수 있다. 최근은 (  괄호  )와 Exploit-Kit가 함께 사용되어 위험성이 더 증대되고 있다.",
+      "answer": "멀버타이징(Malvertising)",
+      "explanation": ""
+    },
+    {
+      "number": 2,
+      "type": "단답형",
+      "question": "가상사설망(VPN)에서 사용되는 IPSec과 관련하여 아래 괄호안에 들어갈 말을 적으시오.",
+      "extra": "ㅇ IPSec은 OSI 모델에서 (  A  ) 계층에 속한다.\r\nㅇ IPSec에서 (  B  )는 무결성 보장, 메시지 인증을 위해 사용된다.\r\nㅇ IPSec에서 (  C  )는 암호화를 통해 기밀성을 유지하기 위해 사용된다.",
+      "answer": "A: 3(네트워크) \r\nB: AH \r\nC: ESP",
+      "explanation": ""
+    },
+    {
+      "number": 3,
+      "type": "단답형",
+      "question": "다음에서 설명하는 공격은?",
+      "extra": "HTTP Request에 있는 파라미터가 HTTP Response의 응답헤더로 다시 전달되는 경우 파라미터 내 개행문자 CR(Carriage Return, %0D) 혹은 LF(Line Feed %0A)가 존재하면 HTTP 여러개로 나누어질 수 있다. 이 공격은 이러한 취약점을 통해 응답 메시지에 악의적인 코드를 주입함으로써 XSS 및 캐시를 훼손하는 취약점이다.",
+      "answer": "HTTP 응답 분할(HTTP Response Splitting) 공격",
+      "explanation": ""
+    },
+    {
+      "number": 4,
+      "type": "단답형",
+      "question": "다음은 데이터베이스를 타겟으로 하는 공격에 관한 설명이다. 설명에 해당하는 공격을 차례로 적으시오.",
+      "extra": "1) 낮은 보안등급의 정보조각을 조합하여 높은 등급의 정보를 알아내는 것\r\n2)  보안으로 분류되지 않은 정보에 접근한 후 기밀정보를 유추하는 것\r\n3) 처리할 자료를 다른 자료와 바꿔서 처리하는 것. 즉 입력값이나 출력값을 부정한 의도로 수정하여 잘못된 결과가 나오도록 유도하는 것",
+      "answer": "1) 집성(Aggregation) \r\n2) 추론(Inference) \r\n3) 데이터 디들링(Data Diddling)",
+      "explanation": ""
+    },
+    {
+      "number": 5,
+      "type": "단답형",
+      "question": "다음은 리눅스 logrotate.conf 파일의 일부이다. wtmp로그에 대해 로그파일을 압축하고 주 단위로 새로 생성하고자 할 때 아래 빈칸에 들어갈 알맞은 옵션을 차례로 적으시오.",
+      "extra": "(   A   )\r\n\r\n/var/log/wtmp {\r\n    (  B  )\r\n    (  C  ) 0664 root utmp\r\n\tminsize 1M\r\n    rotate 1\r\n}",
+      "answer": "A: compress \r\nB: weekly \r\nC: create",
+      "explanation": ""
+    },
+    {
+      "number": 6,
+      "type": "단답형",
+      "question": "클라우드 서비스의 유형 3가지를 적으시오.",
+      "extra": "",
+      "answer": "IaaS, PaaS, SaaS",
+      "explanation": ""
+    },
+    {
+      "number": 7,
+      "type": "단답형",
+      "question": "다음은 개인정보 보호법상의 접속기록에 관한 설명이다. 빈칸에 들어갈 말을 적으시오.",
+      "extra": "\"접속기록\"이란 개인정보취급자 등이 (   A   ) 에 접속한 사실을 알 수 있는 계정, 접속일시, 접속자 정보, (   B   ) 등을 (   C   ) 으로 기록한 것을 말한다. 이 경우 \"접속\"이란 개인정보처리 시스템과 연결되어 데이터 송신 또는 수신이 가능한 상태를 말한다",
+      "answer": "A: 개인정보처리시스템 \r\nB: 수행 업무 \r\nC: 전자적",
+      "explanation": ""
+    },
+    {
+      "number": 8,
+      "type": "단답형",
+      "question": "아래의 식을 참고하여 위험의 구성요소 3가지를 적으시오.",
+      "extra": "위험 = (  A  ) × (  B  ) × (  C  ) - 정보보호대책",
+      "answer": "A: 자산(Asset) \r\nB: 취약점(Vulnerability) \r\nC: 위협(Threat)",
+      "explanation": ""
+    }
+  ]
+}

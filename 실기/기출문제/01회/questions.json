@@ -1,0 +1,87 @@
+{
+  "exam_name": "정보보안기사 실기 제1회 기출복원",
+  "round": 1,
+  "total_questions": 10,
+  "questions": [
+    {
+      "number": 1,
+      "type": "단답형",
+      "question": "네트워크 공격에서 공격자가 특정 네트워크의 모든 시스템에 다량의 브로드캐스트 패킷을 전송하고, 이를 받은 시스템들이 대상 시스템에 많은 양의 ICMP 패킷을 보내게 하여 서비스 장애를 일으키는 공격 방법은 무엇인가?",
+      "extra": "",
+      "answer": "Smurf 공격 (스머프 공격)",
+      "explanation": "공격자가 출발지 IP를 희생자 IP로 위조(IP Spoofing)하여 브로드캐스트 대역으로 ICMP Echo Request를 전송하면, 대역 내 모든 호스트가 희생자에게 ICMP Echo Reply를 쏟아붓는 반사 DoS 공격입니다."
+    },
+    {
+      "number": 2,
+      "type": "단답형",
+      "question": "서버가 클라이언트 요청을 통해 내부 네트워크 자원에 접근하게 되는 취약점 및 공격 기법으로, 외부에서 접근할 수 없는 내부망 시스템(메타데이터 서버 등)에 임의 요청을 전달하는 공격은 무엇인가?",
+      "extra": "",
+      "answer": "SSRF (Server-Side Request Forgery)",
+      "explanation": "서버 사이드 요청 위조 취약점으로 웹 서버가 원격 리소스를 가져오는 기능을 악용하여 내부망 인트라넷, 루프백 인터페이스(127.0.0.1) 등을 탐색하거나 공격합니다."
+    },
+    {
+      "number": 3,
+      "type": "단답형",
+      "question": "VLAN 구성과 관련하여 (A) 관리자가 스위치의 각 포트에 수동으로 VLAN을 할당하는 방식과 (B) 호스트의 MAC 주소나 인증 정보를 기반으로 자동 할당하는 방식의 명칭을 쓰고, (C) Cisco 스위치에서 VLAN 구성을 확인하는 명령어를 기술하시오.",
+      "extra": "",
+      "answer": "(A) 정적 VLAN (Static VLAN), (B) 동적 VLAN (Dynamic VLAN), (C) show vlan",
+      "explanation": "포트 기반 할당은 정적 VLAN이며, MAC/프로토콜 기반은 동적 VLAN입니다. Cisco 스위치에서는 `show vlan` 또는 `show vlan brief` 명령어로 확인합니다."
+    },
+    {
+      "number": 4,
+      "type": "단답형",
+      "question": "XSS 공격 시 자바스크립트(`document.cookie`)를 통한 쿠키 탈취는 방지하지만, 네트워크 도청에 의한 세션 하이재킹은 방지하지 못하는 Set-Cookie 헤더의 보안 속성은 무엇인가?",
+      "extra": "",
+      "answer": "HttpOnly",
+      "explanation": "HttpOnly 플래그는 클라이언트 스크립트에서 쿠키에 접근하는 것을 차단합니다. 네트워크 구간 암호화는 Secure 플래그가 담당합니다."
+    },
+    {
+      "number": 5,
+      "type": "단답형",
+      "question": "HTTP 헤더 인젝션(HTTP Response Splitting) 공격 시 개행을 발생시키기 위해 사용되는 특수 제어 문자 두 가지의 명칭 또는 표기법을 쓰시오.",
+      "extra": "",
+      "answer": "CR(Carriage Return, \\r, %0D), LF(Line Feed, \\n, %0A)",
+      "explanation": "CRLF 인젝션은 CRLF(%0D%0A) 문자를 헤더에 삽입하여 응답 본문을 조작하거나 악성 쿠키를 설정하는 공격입니다."
+    },
+    {
+      "number": 6,
+      "type": "단답형",
+      "question": "록히드마틴(Lockheed Martin)사가 제안하여 APT 공격에 대응하기 위해 공격 단계를 7단계(정찰 -> 무기화 -> 전달 -> 취약점 악용 -> 설치 -> 명령 및 제어 -> 목적 달성)로 정의한 프레임워크는 무엇인가?",
+      "extra": "",
+      "answer": "사이버 킬 체인 (Cyber Kill Chain)",
+      "explanation": "APT 공격의 진행 단계 중 한 단계라도 사전에 탐지·차단하면 전체 공격을 무력화할 수 있다는 방어 모델입니다."
+    },
+    {
+      "number": 7,
+      "type": "서술형",
+      "question": "SYN Flooding 공격의 원리를 3-Way Handshake 관점에서 서술하고, 이에 대한 서버 측 대응 방안(커널 파라미터 및 방어 기법) 2가지를 기술하시오.",
+      "extra": "",
+      "answer": "원리: 공격자가 위조된 IP로 대량의 TCP SYN 패킷을 전송하여 서버가 SYN+ACK를 보내고 백로그 큐(Backlog Queue)에 Half-Open 상태로 대기하게 만들어 신규 연결을 고갈시킴.\n대응 방안: 1) SYN Cookie(syncookies=1) 활성화, 2) TCP 백로그 큐 크기 증가(tcp_max_syn_backlog), 3) SYN+ACK 재전송 횟수 단축(tcp_synack_retries).",
+      "explanation": "리눅스에서는 sysctl net.ipv4.tcp_syncookies = 1 로 설정하여 백로그 큐가 꽉 차도 쿠키를 통해 연결을 유지할 수 있습니다."
+    },
+    {
+      "number": 8,
+      "type": "서술형",
+      "question": "리눅스 파일의 SetUID, SetGID, Sticky Bit의 개념과 8진수 표기법, 그리고 SetUID가 설정된 파일의 보안상 위험성을 서술하시오.",
+      "extra": "",
+      "answer": "개념: SetUID(4000)는 실행 시 파일 소유자 권한으로 실행, SetGID(2000)는 그룹 권한으로 실행, Sticky Bit(1000)는 모든 사용자가 쓰기 가능하나 파일 소유자만 삭제 가능(/tmp).\n위험성: root 소유 파일에 SetUID가 설정되어 있을 경우, 버퍼 오버플로우나 쉘 탈출 취약점이 존재하면 일반 사용자가 손쉽게 root 권한을 획득(권한 상승)할 수 있음.",
+      "explanation": "find / -perm -4000 명령어로 시스템 내 취약한 SetUID 파일을 주기적으로 점검해야 합니다."
+    },
+    {
+      "number": 9,
+      "type": "실무형",
+      "question": "리눅스 iptables를 이용하여 다음 조건의 방화벽 룰을 설정하는 명령어를 작성하시오.\n1) 기본 수신(INPUT) 정책을 DROP으로 설정\n2) 22번 포트(SSH)는 192.168.1.0/24 대역에서만 허용\n3) 80, 443번 포트(웹)는 모든 대역에서 허용\n4) 이미 맺어진 세션(ESTABLISHED, RELATED)은 허용",
+      "extra": "",
+      "answer": "1) iptables -P INPUT DROP\n2) iptables -A INPUT -p tcp -s 192.168.1.0/24 --dport 22 -j ACCEPT\n3) iptables -A INPUT -p tcp -m multiport --dports 80,443 -j ACCEPT\n4) iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT",
+      "explanation": "상태 추적(stateful inspection) 방화벽 설정의 기본 템플릿입니다."
+    },
+    {
+      "number": 10,
+      "type": "실무형",
+      "question": "Snort 침입 탐지 시스템(IDS)에서 외부 네트워크($EXTERNAL_NET)에서 내부 웹서버($HTTP_SERVERS 80)로 /etc/passwd 문자열을 요청하는 웹 디렉터리 접근 시도를 탐지하여 alert을 발생시키는 룰을 작성하시오. (sid: 1000001, rev: 1)",
+      "extra": "",
+      "answer": "alert tcp $EXTERNAL_NET any -> $HTTP_SERVERS 80 (msg:\"WEB-ATTACK /etc/passwd access attempt\"; content:\"/etc/passwd\"; nocase; sid:1000001; rev:1;)",
+      "explanation": "Snort 룰 헤더와 옵션부(msg, content, nocase, sid, rev)의 구문 형식을 정확히 작성해야 합니다."
+    }
+  ]
+}

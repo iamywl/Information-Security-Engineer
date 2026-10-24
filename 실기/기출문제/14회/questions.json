@@ -1,0 +1,135 @@
+{
+  "exam_name": "정보보안기사 실기 제14회 기출복원",
+  "round": 14,
+  "total_questions": 16,
+  "questions": [
+    {
+      "number": 1,
+      "type": "단답형",
+      "question": "다음 빈칸에 들어갈 말을 차례로 적으시오.",
+      "extra": "기업 또는 조직의 정보보호에 대한 방향, 전략, 주요내용들을 문서화 시켜놓은 것을 (  A  )라고 한다. (  A  ) 중 정보에 대한 정당한 사용자의 접근 여부를 관리하는 것을 접근통제정책이라 하는데, (   B  )는 객체에 접근하고자 하는 주체의 접근 권한에 따라 통제를 적용하고 (  C  )는 주체의 레이블과 주체가 접근하고자 하는 객체의 레이블을 이용한다. (  D  )는 비 임의적 접근통제 모델(Non-Discretionary) 또는 임무 기반(Task-Based) 접근통제 모델로 불리기도 한다.",
+      "answer": "A: 정보보호 정책 \r\nB: DAC 또는 임의적 접근통제 \r\nC: MAC 또는 강제적 접근통제 \r\nD: RBAC 또는 역할기반 접근통제",
+      "explanation": ""
+    },
+    {
+      "number": 2,
+      "type": "단답형",
+      "question": "ARP는 목적지의 IP주소를 이용하여 물리적 주소를 얻는 역할을 한다. ARP는 물리적 주소를 얻기 위해 IP주소가 속한 네트워크에서 어떠한 주소로 물리적 주소를 요청한다. 어떠한 주소인가?",
+      "extra": "",
+      "answer": "ff:ff:ff:ff:ff:ff 또는 Broadcast 주소",
+      "explanation": ""
+    },
+    {
+      "number": 3,
+      "type": "단답형",
+      "question": "다음에서 설명하는 IPSec의 구성요소를 적으시오.",
+      "extra": "1) 메시지 인증 코드(MAC)를 이용하여 무결성과 인증 기능을 제공하지만 암호화는 제공하지 않는 IP 확장 헤더\r\n2) 새로운 IP 패킷을 만드로 기존 패킷은 Payload에 넣어 감싸는 방식으로 암호화를 제공하는 방식\r\n3) IPSec에서 키 교환을 위해 사용되는 프로토콜로, UDP 500포트 사용",
+      "answer": "1) AH \r\n2) ESP \r\n3) IKE",
+      "explanation": ""
+    },
+    {
+      "number": 4,
+      "type": "단답형",
+      "question": "마이크로소프트 오피스와 어플리케이션 사이 데이터를 전달하는 프로토콜로,  이 기능을 활용한 악성 문서파일들이 많이 성행하였다. 엑셀 등 오피스 프로그램에서 이 기능이 활성화 될 시 악용이 될수있다.",
+      "extra": "",
+      "answer": "DDE (Dynamic Data Exchange)",
+      "explanation": ""
+    },
+    {
+      "number": 5,
+      "type": "단답형",
+      "question": "다음에서 설명하는 것은?",
+      "extra": "국가마다 서로 다른 정보보호시스템 평가기준을 연동하고 평가결과를 상호 인증하기 위해 제정된 정보보안 평가기준으로, ISO/IEC 15408에 등록된 국제 표준이다. 상호 인정 협정에 의해 인증국에서 인증한 것은 다른 회원국에서도 인정을 한다.",
+      "answer": "CC 인증 또는 Common Criteria",
+      "explanation": ""
+    },
+    {
+      "number": 6,
+      "type": "단답형",
+      "question": "한국인터넷진흥원에서 발령하는 사이버 위협정보 경보단계 5가지를 순서대로 적으시오.",
+      "extra": "",
+      "answer": "정상 -> 관심 -> 주의 -> 경계 -> 심각",
+      "explanation": ""
+    },
+    {
+      "number": 7,
+      "type": "단답형",
+      "question": "다음은 리눅스에서 사용되는 로그에 관한 설명이다. 각각 어떤 로그인지 적으시오.",
+      "extra": "1) 사용자들이 로그인, 로그아웃한 정보를 가지고 있으며, last 명령어에 사용된다.\r\n2) 시스템에 현재 로그인한 사용자들에 대한 상태정보를 가지고 있으며, who 명령어에 사용된다.\r\n3) 5번 이상 로그인에 실패했을 경우에 로그인 실패 정보를 기록하며, lastb 명령어로 확인가능하다.",
+      "answer": "1) wtmp \r\n2) utmp \r\n3) btmp",
+      "explanation": ""
+    },
+    {
+      "number": 8,
+      "type": "단답형",
+      "question": "Apache 웹서버의 설정파일인 httpd.conf에서 전송 가능한 최대사이즈를 제한하고자 한다. 어떤 옵션을 변경해야 하는가?",
+      "extra": "",
+      "answer": "LimitRequestBody",
+      "explanation": ""
+    },
+    {
+      "number": 9,
+      "type": "단답형",
+      "question": "국내 정보보호 관련 법령으로, 아래에 설명하는 법률의 명칭을 적으시오.",
+      "extra": "1) 정보통신 망, 즉 인터넷이나 네트워크 상에서의 정보보호를 다루는 법률이다.\r\n2) 민간, 공공 시설을 불문하고 침해사고 등이 발생할 경우 국가안정보장과 경제사회에 미치는 피해규모 및 범위가 큰 시설의 보호에 대해 다루는 법률이다.\r\n3) 사업자가 이용자의 위치정보를 추적하여 사용하고자 할 때 안전한 사용을 도모하기 위한 법률이다.",
+      "answer": "1) 정보통신망 이용 촉진 및 정보보호등에 관한 법률 \r\n2) 정보통신기반 보호법 \r\n3) 위치정보의 보호 및 이용 등에 관한 법률",
+      "explanation": ""
+    },
+    {
+      "number": 10,
+      "type": "단답형",
+      "question": "다음은 국내 ISMS-P 인증 기준에 관한 설명이다. 빈칸에 들어갈 단어를 쓰시오.",
+      "extra": "1. 조직의 업무특성에 따라 정보자산 분류기준을 수립하여 관리체계 범위 내 모든 정보자산을 식별 · 분류하고, (  A  )를 산정한 후 그 목록을 최신으로 관리하여야 한다.  \r\n2. 조직의 대내외 환경분석을 통해 유형별 (  B  )를수집하고 조직에 적합한 위험 평가 방법을 선정하여 관리체계 전 영역에 대하여 연 1회 이상 위험을 평가하며, 수용할 수 있는 위험은 (  C  )의 승인을 받아 관리하여야 한다.",
+      "answer": "A: 중요도 \r\nB: 위협 정보 \r\nC: 경영진",
+      "explanation": ""
+    },
+    {
+      "number": 11,
+      "type": "단답형",
+      "question": "다음은 리눅스 계정 관리 모듈인 PAM의 계정 임계값 설정 옵션이다. 각 옵션에 대해 설명하시오.",
+      "extra": "deny=5\r\nunlock_time=120\r\nno_magic_root\r\nreset",
+      "answer": "deny=5 : 5회 틀릴시 계정잠금 \r\nunlock_time=120 : 계정잠금후 120초후 잠금해제 \r\nno_magic_root : 루트계정 잠금설정 안함 \r\nreset : 접속성공시 실패회수 초기화",
+      "explanation": ""
+    },
+    {
+      "number": 12,
+      "type": "단답형",
+      "question": "다음은 리눅스/유닉스 시스템의 /etc/shadow에 관한 내용이다. 각각의 질문에 대해 답하시오.",
+      "extra": "# cat /etc/shadow\r\nitwiki:$①\n6\n$②\nabc..def\n$③\nb6...Qk0t/\n:17132:0:99999:7: : :\r\n\n\r\n1) 밑줄친 ①, ②, ③의 용도를 쓰시오.\r\n2) ②를 통해 레인보우 테이블을 이용한 공격에 대응할 수 있는 이유를 쓰시오\r\n3) 명령어 pwconv와 pwunconv의 용도를 설명하시오.",
+      "answer": "1) ① 패스워드 방식(암호 알고리즘), ② salt 값, ③ 패스워드 해시 \r\n2) 레인보우 테이블이란 자주 쓰이는 패스워드에 대한 해시값 사전으로, salt를 사용함으로써 레인보우 테이블에 있는 같은 패스워드라도 전혀 다른 해시값처럼 보이게 한다. \r\n3) pwconv는 구형 리눅스에서 사용하던 /etc/passwd 방식을 /etc/shadow로 변환해준다. pwunconv는 /etc/shadow 방식을 /etc/passwd 방식으로 변환한다.",
+      "explanation": ""
+    },
+    {
+      "number": 13,
+      "type": "단답형",
+      "question": "다음은 접근통제 모델에 관한 내용이다. 각각의 질문에 답하시오.",
+      "extra": "1) 미 국방부를 위해 개발도니 모델로, 기밀성을 강조한다. 최초의 수학적 모델로, No Read Up/No Write Down 접근 정책을 기반으로 한다. 이 접근통제 모델은?\r\n2) No Read Up과 No Write Down이 의미하는 것은?\r\n3) 위 모델의 무결성 취약성을 보완하기 위해 나온 비바 모델의 정책은?",
+      "answer": "1) 벨 라파듈라 모델 \r\n2)  \r\n(No Read Up): 낮은 등급의 주체는 높은 등급의 객체를 읽을 수 없음 \r\n(No Write Down): 높은 등급의 주체는 낮음 등급의 객체를 수정할 수 없음 \r\n3)  \r\n(No Read Down): 높은 등급의 주체는 낮은 등급의 객체를 읽을 수 없음 \r\n(No Write Up): 낮은 등급의 주체는 상위 등급의 객체를 수정할 수 없음",
+      "explanation": ""
+    },
+    {
+      "number": 14,
+      "type": "단답형",
+      "question": "아래 그림은 포트스캐닝 시도 과정에서 RST 패킷을 회신받은 그림이다. 다음 질문에 답하시오.",
+      "extra": "1) 이 스캐닝의 종류는 무엇인가?\r\n2) 이 스캐닝의 목적은 무엇인가?\r\n3) 이 그림에서 파악 가능한 스캔 결과는?",
+      "answer": "1. TCP ACK 스캔 \r\n2. 방화벽 필터링 여부 판별 \r\n3. 방화벽에서 필터링 하지 않고 있음",
+      "explanation": ""
+    },
+    {
+      "number": 15,
+      "type": "단답형",
+      "question": "다음은 리눅스 웹서버인 Apache의 설정파일 중 일부이다. 표시된 설정 내용이 의미하는 바가 무엇인지 설명하시오.",
+      "extra": "KeepAlive On\nMaxKeepAliveRequests 100\nKeepAliveTimeout 100\nDirectoryIndex index.htm index.html\nCustomLog /www/logs/access_log common",
+      "answer": "1) KeepAlive 기능을 켠다. 한 번 맺은 TCP 연결로 여러 요청을 처리한다. \r\n - 속도를 개선시킬 수 있으나 연결을 오래 붙잡아 동시접속량이 줄어들 수 있다. \r\n2) KeepAlive 연결 하나에서 처리할 수 있는 최대 요청 수를 100개로 제한한다(초과하면 연결을 끊는다). \r\n3) KeepAlive 연결을 유지하며 다음 요청을 기다리는 시간을 100초로 설정한다. \r\n4) 디렉토리로 접근할 경우 index.htm을 먼저 읽고, 없으면 index.html을 읽는다. \r\n5) 로그파일은 /www/logs/access_log 경로에 저장하고, Apache 기본 로그 포맷을 사용한다.",
+      "explanation": ""
+    },
+    {
+      "number": 16,
+      "type": "단답형",
+      "question": "다음은 공개 IDS 소프트웨어인 snort의 관제 규칙(rule)이다. 각각의 질문에 답하시오.",
+      "extra": "alert any any - > any 80 ( msg \"XSS\"; content \"GET\"; offset:1; depth:3: content:\"/login.php.. XSS\"; distance 1;)\r\n\n\r\n위와 같은 snort 룰을 등록하였는데 아래 접근이 탐지되지 않았다.\r\n\n\r\nContent :\"/Login.php?id=...\";\r\n\n\r\n1) content:\"GET\"; offset:1 depth:3 의미\r\n2) content:\"/login.php XSS\"; distance 1; 의미\r\n3) 탐지되지 않은 접근이 탐지되도록 하려면 어떻게 수정해야 하는가?",
+      "answer": "1) 1바이트 띄고 3바이트 검사해서 get 찾아라 \r\n2) 이전거 찾은 위치에서 1byte 넘어가서 다음 content 찾아라 \r\n3) nocase 추가",
+      "explanation": ""
+    }
+  ]
+}

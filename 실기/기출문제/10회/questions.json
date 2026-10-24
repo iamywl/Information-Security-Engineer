@@ -1,0 +1,135 @@
+{
+  "exam_name": "정보보안기사 실기 제10회 기출복원",
+  "round": 10,
+  "total_questions": 16,
+  "questions": [
+    {
+      "number": 1,
+      "type": "단답형",
+      "question": "TCP 포트가 닫혀 있을 때 응답이 오는 스텔스 스캔 3가지",
+      "extra": "",
+      "answer": "NULL Scan, FIN Scan, Xmas Scan",
+      "explanation": ""
+    },
+    {
+      "number": 2,
+      "type": "단답형",
+      "question": "FTP 동작 방식에 대하여 아래 빈칸을 채우시오.",
+      "extra": "FTP는 ( A ) 모드와 수동(passive)모드가 있다.( A )는 통신 제어를 위한 ( B ) 포트와 데이터 전송을 위한 ( C ) 포트를 사용한다.수동모드에서는 데이터 전송을 위해 서버에서 ( D ) 포트 이상을 사용한다.",
+      "answer": "A: Active \r\nB: 21 \r\nC: 20 \r\nD: 1024",
+      "explanation": ""
+    },
+    {
+      "number": 3,
+      "type": "단답형",
+      "question": "오픈 소스 도구인 PacketFense와 같이 단말기가 네트워크에 접속하려 시도할 때 이를 통제하는 보안솔루션은?",
+      "extra": "",
+      "answer": "NAC(Network Access Control)",
+      "explanation": ""
+    },
+    {
+      "number": 4,
+      "type": "단답형",
+      "question": "다음은 Virtual LAN에 대한 설명이다. 빈칸에 들어갈 말을 적으시오.",
+      "extra": "VLAN은 네트워크 자원 사용을 제한함으로써 ( A ) 를 높이고, 이용하는 도메인의 ( B )를 제한하여 네트워크 서비스의 ( C )를 향상시킨다.",
+      "answer": "A: 보안 \r\nB: 크기 \r\nC: 성능",
+      "explanation": ""
+    },
+    {
+      "number": 5,
+      "type": "단답형",
+      "question": "위험관리 방법과 관련하여 아래 빈칸에 들어갈 말을 적으시오.",
+      "extra": "위험관리 방법에는 위험감소, 위험수용, 위험회피, 위험(  괄호  )가 있다. 위험 (  괄호  )를 위해 보험에 들거나 아웃소싱을 하는 방법이 있다.",
+      "answer": "전가",
+      "explanation": ""
+    },
+    {
+      "number": 6,
+      "type": "단답형",
+      "question": "주요정보통신기반시설의 지정 및 취약점 분석에 관한 기준이다. 빈 칸을 채우시오.",
+      "extra": "제8조(주요정보통신기반시설의 지정 등) ①중앙행정기관의 장은 소관분야의 정보통신기반시설중 다음 각호의 사항을 고려하여 전자적 침해행위로부터의 보호가 필요하다고 인정되는 정보통신기반시설을 주요정보통신기반시설로 지정할 수 있다.\r\n\r\n1. 당해 정보통신기반시설을 관리하는 기관이 수행하는 업무의 국가사회적 중요성\r\n2. 기관이 수행하는 업무의 정보통신기반시설에 대한 ( A )\r\n3. 다른 정보통신기반시설과의 ( B )\r\n4. 침해사고가 발생할 경우 국가안전보장과 경제사회에 미치는 피해규모 및 범위\r\n5. 침해사고의 발생가능성 또는 그 복구의 ( C )",
+      "answer": "A: 의존도 \r\nB: 상호연계성 \r\nC: 용이성",
+      "explanation": ""
+    },
+    {
+      "number": 7,
+      "type": "단답형",
+      "question": "다음 각 설명에 알맞은 재해복구서비스를 적으시오.",
+      "extra": "(A) : 백업장치나 테이프와 같은 것만 구비한다. 중요성이 높은 정보 기술 자원만 부분적으로 사이트에 보유한다.\r\n(B) : 주 센터와 동일한 수준의 정보 기술 자원을 사이트에 보유하면서, 데이터를 최신으로 유지한다.\r\n(C) : 컴퓨터실과 같은 장소만 확보하고 정보자원은 확보하지 않은 상태에서, 재해시 정보자원을 가지고 온다.",
+      "answer": "A: 웜 사이트 \r\nB: 핫 사이트 \r\nC: 콜드 사이트",
+      "explanation": ""
+    },
+    {
+      "number": 8,
+      "type": "단답형",
+      "question": "개인정보 안전성 확보조치를 기준으로 다음 빈칸에 들어갈 말을 적으시오.",
+      "extra": "ㅇ (    A    )이란 데이터베이스시스템 등 개인정보를 처리할 수 있도록 체계적으로 구성한 시스템을 말한다.\r\nㅇ (    B    )란 정보주체 또는 개인정보취급자 등이 개인정보처리시스템, 업무용 컴퓨터 또는 정보통신망 등에 접속할 때 식별자와 함께 입력하여 정당한 접속 권한을 가진 자라는 것을 식별할 수 있도록 시스템에 전달해야 하는 고유의 문자열로서 타인에게 공개되지 않는 정보를 말한다.\r\nㅇ 개인정보처리자는 인터넷 구간 및 인터넷 구간과 (    C    )의 중간 지점(DMZ : Demilitarized Zone)에 고유식별정보를 저장하는 경우에는 이를 암호화하여야 한다.",
+      "answer": "A: 개인정보처리시스템 \r\nB: 비밀번호 \r\nC: 내부망",
+      "explanation": ""
+    },
+    {
+      "number": 9,
+      "type": "단답형",
+      "question": "「개인정보 보호법」 제26조(업무위탁에 따른 개인정보의 처리 제한)에 따라 개인정보의 처리 업무를 위탁하는 개인정보처리자는 다음 사항을 정보주체가 언제든지 쉽게 확인할 수 있도록 공개하여야 한다. 빈칸에 들어갈 말을 적으시오.",
+      "extra": "1. 개인정보 처리 업무를 위탁받아 처리하는 자(이하 (    A    )라 한다)\n2. 개인정보 처리 업무를 위탁하는 (     B     )",
+      "answer": "A: 수탁자 \r\nB: 업무의 내용",
+      "explanation": ""
+    },
+    {
+      "number": 10,
+      "type": "단답형",
+      "question": "위험관리에 대해 아래 빈칸에 들어갈 말을 적으시오.",
+      "extra": "",
+      "answer": "A: 취약성 \r\nB: 감소 \r\nC: 보유",
+      "explanation": ""
+    },
+    {
+      "number": 11,
+      "type": "단답형",
+      "question": "버퍼 오버 플로에 대해 아래 질문에 답하시오.",
+      "extra": "1) 스택 버퍼오버플로우 시 카나리아 단어(canaria word) 기법의 원리를 설명하시오.\r\n2) 위 방법의 공격 차단 방법을 설명하시오.\r\n3) ASLR(Address Space Layout Randomization) 기법의 원리를 설명하시오.\r\n4) 위 방법의 공격 차단 방법을 설명하시오.",
+      "answer": "1) 카나리 단어 기법 동작방식 : 스택가드(Stack Guard) 라고도 함, 메모리 상에서 프로그램의 복귀 주소(Return Address)와 변수/버퍼 사이에 특정 값(Canary)을 저장해두는 기법을 말한다. \r\n2) 카나리 단어 기법 공격 차단 원리 : 버퍼오버플로우 발생 시 특정 값(Canary)의 변조가 발생하므로 이를 탐지하여 차단한다. \r\n3) ASLR 기법 동작방식 : 메모리 공격을 방어하기 위해 주소 공간 배치를 난수화하는 기법을 말한다. \r\n4) ASLR 기법 공격 차단 원리 : 실행 시 마다 메모리 주소를 변경시켜 버퍼 오버플로우를 통한 특정 주소 호출을 방지한다.",
+      "explanation": ""
+    },
+    {
+      "number": 12,
+      "type": "단답형",
+      "question": "「개인정보 보호법」에 따라 일정 규모 이상의 개인정보처리자는 수집한 개인정보의 이용·제공 내역을 연 1회 이상 정보주체에게 통지하여야 한다. 이때 통지해야 하는 정보 2가지를 쓰시오.",
+      "extra": "",
+      "answer": "1) 개인정보의 수집·이용 목적 및 수집한 개인정보의 항목 \r\n2) 개인정보를 제공받은 제3자와 그 제공 목적 및 제공한 개인정보의 항목",
+      "explanation": ""
+    },
+    {
+      "number": 13,
+      "type": "단답형",
+      "question": "iptables에서 -j옵션중에 DROP과 REJECT가 있다. 관련하여 아래 질문에 답하시오.",
+      "extra": "(1) DROP의 동작 방식\r\n(2) REJECT의 동작 방식\r\n(3) 보안적 관점에서 둘 중에 어느 것이 유리한가? 이유는?",
+      "answer": "DROP은 응답을 하지 않고 REJECT는 ICMP 메시지를 이용하여 거절 응답을 보낸다.  \r\n(시스템 리소스를 더 잡아먹기도 함) \r\nREJECT를 사용할 경우 응답을 보내기 위해 리소스 사용이 많아지고  ICMP 응답 메시지에 많은 정보가 포함되어 있기 때문에 DROP을 쓰는 것이 보안 관점에서 유리하다.",
+      "explanation": ""
+    },
+    {
+      "number": 14,
+      "type": "단답형",
+      "question": "TCP FLAG는 URG, ACK, PSH, RST, SYN, FIN를 순서대로 설정한다. 아래에서 TCP 연결설정 및 연결해제 과정에서TCP FLAG 비트와 순서번호가 순서에 맞도록 빈칸을 채우시오.",
+      "extra": "(1) TCP 연결설정 과정\r\n[Client>Server] , TCP Flag[      A     ] , SEQ(  B  ) , ACK(0)\r\n[Server>Client] , TCP Flag[010010] , SEQ(  C  ) , ACK(345)\r\n[Client>Server] , TCP Flag[010000] , SEQ(345) , ACK(678)\r\n\r\n(2) TCP 연결해제 과정\r\n[Client>Server] , TCP Flag[010001] , SEQ(1234) , ACK(6789)\r\n[Server>Client] , TCP Flag[     D     ] , SEQ(6789) , ACK(1235)\r\n[Server>Client] , TCP Flag[     E      ] , SEQ(6789) , ACK(1235)\r\n[Client>Server] , TCP Flag[010000] , SEQ(1235) , ACK(6790)",
+      "answer": "A: 000010 \r\nB: 344 \r\nC: 677 \r\nD: 010000 \r\nE: 010001",
+      "explanation": ""
+    },
+    {
+      "number": 15,
+      "type": "단답형",
+      "question": "다음 패킷 덤프 결과를 보고 아래 질문에 답하시오.",
+      "extra": "1) 공격명:\r\n2) 공격 원리: \r\n3) 대응방법:",
+      "answer": "1) 공격명 : Smurf 공격 \r\n2) 공격원리 : Smurf 공격은 출발지 IP를 희생자 IP로 위조한 후 증폭 네트워크로 ICMP Echo Request를 브로드캐스트 함으로써 다수의 ICMP Echo Reply가 희생자에게 전달되어 서비스 거부를 유발시킨다. \r\n3) 대응방법 \r\n- 증폭 네트워크로 사용되는 것을 막기 위해 다른 네트워크로부터 자신의 네트워크로 들어오는 Directed Broadcast 패킷을 허용하지 않도록 라우터 설정을 한다. \r\n- 브로드캐스트 주소로 전송된 ICMP Echo Request 메시지에 대해 응답하지 않도록 시스템 설정을 한다.",
+      "explanation": ""
+    },
+    {
+      "number": 16,
+      "type": "단답형",
+      "question": "다음 화면을 보고 아래 질문에 답하시오.",
+      "extra": "[root@qfran ~] ifconfig eth0\r\neth0: flags=12345 < UP, BROADCAST, RUNNING, PROMISC, SIMPLEX, MULTICAST > metric 0 mtu 1500 options=80009 ...\r\n\n\r\n1) 예상되는 공격명 및 이유 \r\n2) 위 문제를 해결하기 위한 명령어 \r\n3) 현상태 발생 시점을 찾기 위한 로그의 경로(파일명 포함)",
+      "answer": "1) 예상되는 공격명 및 이유 : 스니핑(Sniffing) 공격, 화면에 표시된 인터페이스가 무차별 모드(PROMISC)로 동작하고 있기 때문에 해당 컴퓨터가 목적지가 아닌 패킷들도 모두 수신이 가능하기 때문에 스니핑(Sniffing) 공격이 발생한 것으로 예상됨. \r\n2) 위 문제를 해결하기 위한 명령어 : ifconfig eth0 ( -promisc ) \r\n3) 현상태의 발생 시점을 찾기 위한 로그의 경로(파일명 포함) : /var/log/messages",
+      "explanation": ""
+    }
+  ]
+}

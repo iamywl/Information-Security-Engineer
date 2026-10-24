@@ -1,0 +1,103 @@
+{
+  "exam_name": "정보보안기사 실기 제17회 기출복원",
+  "round": 17,
+  "total_questions": 12,
+  "questions": [
+    {
+      "number": 1,
+      "type": "단답형",
+      "question": "다음에서 설명하는 공격 명칭을 쓰시오.",
+      "extra": "mimikatz를 활용해 윈도우의 NTLM 및 LANMAN 해시값을 탈취하여 원격으로 로그인하는 공격 기법이다.",
+      "answer": "Pass the Hash",
+      "explanation": ""
+    },
+    {
+      "number": 2,
+      "type": "단답형",
+      "question": "다음 예시가 설명하는 공격 명칭을 쓰시오.",
+      "extra": "1. 사용자는 q.fran.kr 사이트에 접속을 시도한다.\r\n2. 공격자는 캐시 DNS 서버가 DNS 서버로부터 정상 DNS 응답을 받기 전 조작된 DNS 응답을 보낸다.\r\n3. 캐시 DNS 서버에 조작된 주소 정보가 저장된다.\r\n4. 사용자는 조작된 주소의 사이트로 접속하게 된다.",
+      "answer": "DNS Cache Poisoning",
+      "explanation": ""
+    },
+    {
+      "number": 3,
+      "type": "단답형",
+      "question": "다음 빈 칸에 알맞은 단어를 쓰시오.",
+      "extra": "MITRE는 사이버 공격 전술 및 기술에 대한 정보를 기반으로 하는 ( 괄호 ) 프레임워크를 제공한다.\r\n킬체인을 확장하여 구체적인 기술에 의해 지원되는 다양한 전술을 포함하며 14단계로 구성된다.",
+      "answer": "ATT&CK",
+      "explanation": ""
+    },
+    {
+      "number": 4,
+      "type": "단답형",
+      "question": "다음에서 설명하는 공격 기법을 적으시오.",
+      "extra": "무차별 대입 공격의 일종으로 공격자가 미리 확보해 놓은 로그인 자격 증명을 다른 계정에 무작위로 대입해 사용자 계정을 탈취하는 공격 방식이다.",
+      "answer": "크리덴셜 스터핑",
+      "explanation": ""
+    },
+    {
+      "number": 5,
+      "type": "단답형",
+      "question": "다음에서 설명하는 것은 무엇인가?",
+      "extra": "MITRE에서 만든 보안 취약점 분석 기준으로 CVE(Common Vulnerabilities Exposures)의 구성 요소 중 하나다.",
+      "answer": "CVSS",
+      "explanation": ""
+    },
+    {
+      "number": 6,
+      "type": "단답형",
+      "question": "다음은 침해사고 대응 방법을 7단계로 나타낸 것이다. 빈칸에 들어갈 과정을 쓰시오.",
+      "extra": "사고 전 준비 과정 -> 사고 탐지 -> ( 괄호 ) -> 대응 전략 체계화 -> 사고 조사 -> 보고서 작성 -> 해결",
+      "answer": "초기 대응",
+      "explanation": ""
+    },
+    {
+      "number": 11,
+      "type": "단답형",
+      "question": "다음에서 설명하는 것을 각각 쓰시오.",
+      "extra": "(1) 가명정보의 정의를 쓰시오.\r\n(2) 다음은 가명처리 단계이다. 괄호안에 들어갈 단계를 쓰시오.\r\n 사전준비 → 가명처리 → ( 괄호 ) → 사후관리\r\n(3) 가명정보를 정보주체 동의 없이도 활용 가능한 경우를 3가지 쓰시오.\r\n(4) 가명정보를 사용할 필요가 없을 때 개인정보보호법에 해당되지 않는 ( 괄호 )를 사용해야 한다. 괄호안에 들어갈 말은?",
+      "answer": "(1) 가명정보 : 개인정보를 가명처리함으로써 원래의 상태로 복원하기 위한 추가 정보의 사용 · 결합 없이는 특정 개인을 알아볼 수 없는 정보 \r\n(2) 적정성 검토 및 추가처리 \r\n(3) (1) 통계작성 (2) 과학적 연구 (3) 공익적 기록보존 \r\n(4) 익명정보",
+      "explanation": ""
+    },
+    {
+      "number": 12,
+      "type": "단답형",
+      "question": "NAC(Network Access Control)의 물리적 구성 방법 두가지를 설명하고 특징을 쓰시오.",
+      "extra": "",
+      "answer": "Inline / Out of band \r\nAgent / Agentless",
+      "explanation": ""
+    },
+    {
+      "number": 13,
+      "type": "단답형",
+      "question": "정보보호 최고책임자의 역할 및 책임(R&R) 4가지를 쓰시오.",
+      "extra": "",
+      "answer": "아래 중 4가지 이상 작성 \r\n1. 정보보호관리체계의 수립 및 관리ㆍ운영 \r\n2. 정보보호 취약점 분석ㆍ평가 및 개선 \r\n3. 침해사고의 예방 및 대응 \r\n4. 사전 정보보호대책 마련 및 보안조치 설계ㆍ구현 등 \r\n5. 정보보호 사전 보안성 검토 \r\n6. 중요 정보의 암호화 및 보안서버 적합성 검토 \r\n7. 그 밖에 이 법 또는 관계 법령에 따라 정보보호를 위하여 필요한 조치의 이행",
+      "explanation": ""
+    },
+    {
+      "number": 14,
+      "type": "단답형",
+      "question": "다음 웹 로그를 보고 알맞은 내용을 쓰시오.",
+      "extra": "192.168.0.11 192.168.0.30 get /script/..%c0%80%ef../winnt/system32/cmd.exe?/c+dir 404 420 324 HTTP 1.0\r\n\r\n(1) 어떤 취약점을 이용한 공격 시도인가?\r\n(2) 공격 성공 유무 및 이유를 쓰시오.\r\n(3) 대응 방안을 2가지 쓰시오.",
+      "answer": "(1) 웹서버 폴더 통과 취약점(Web Server Folder Traversal, CVE-2000-0884) \r\n(2) 실패. 404로 파일의 정확한 위치를 파악하지 못함 \r\n(3) 아래 중 2가지 이상  \r\n1. 정해지지 않은 폴더에 접근할 수 없도록 퍼미션 설정 \r\n2. 이상 입력값을 입력하지 못하도록 에러처리 \r\n3. IIS 서버 패치",
+      "explanation": ""
+    },
+    {
+      "number": 15,
+      "type": "단답형",
+      "question": "각각의 Snort Rule 설정의 의미를 작성하시오.",
+      "extra": "(1) msg:\"GET Flooding\"\r\n(2) content:\"GET / HTTP1.\"\r\n(3) content:\"USER\"; content:!\"anonymous\"\r\n(4) content:\"|00|\";depth:1",
+      "answer": "(1) alert 발생 시 GET Flooding이 이벤트 이름으로 사용된다. \r\n(2) GET / HTTP1. 문자열을 검사한다. \r\n(3) 문자열이 USER을 포함하고 anonymous를 포함하지 않는지 검사한다. \r\n(4) 1바이트의 바이너리 값이 00인지 검사한다.",
+      "explanation": ""
+    },
+    {
+      "number": 16,
+      "type": "단답형",
+      "question": "다음과 같이 Apache 설정 시 발생할 수 있는 문제점 두가지를 작성하고 대응 방안을 쓰시오.",
+      "extra": "Options FollowSymLinks\r\nAllowOverride none\r\nRequire all granted\r\n\r\n\r\n\r\nOptions indexes FollowSymLinks\r\nAllowOverride none\r\nRequire all granted\r\n\r\n\n\r\n\r\n(1) 발생하는 두가지 문제점\r\n(2) 두가지 문제점에 대한 대응방안",
+      "answer": "(1)  \r\n1. 디렉터리 리스팅으로 웹 서버 구조 및 중요 파일 노출됨. \r\n2. 상위 디렉터리로 이동하여 악의적인 접근 가능함. \n \r\n(2) \r\n1. /var/www 디렉터리의 Options 지시자에서 Indexes 옵션 제거 \r\n2. AllowOverride 옵션을 None -> AuthConfig로 변경",
+      "explanation": ""
+    }
+  ]
+}
