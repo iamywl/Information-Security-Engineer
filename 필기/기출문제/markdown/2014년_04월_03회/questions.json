@@ -1,0 +1,3111 @@
+{
+  "exam_id": "written_2014_03",
+  "title": "정보보안기사 필기 제3회 (2014년 4월)",
+  "exam_type": "필기",
+  "round": 3,
+  "year": 2014,
+  "month": 4,
+  "total_questions": 100,
+  "questions": [
+    {
+      "id": "written_2014_03_q001",
+      "number": 1,
+      "subject_id": 1,
+      "subject_name": "시스템 보안",
+      "question": "NTFS에서 Sector_per_cluster로 정할 수 없는 것은 무엇인 가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "1"
+        },
+        {
+          "num": 2,
+          "text": "6"
+        },
+        {
+          "num": 3,
+          "text": "8"
+        },
+        {
+          "num": 4,
+          "text": "16"
+        }
+      ],
+      "correct_answer": 2,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q002",
+      "number": 2,
+      "subject_id": 1,
+      "subject_name": "시스템 보안",
+      "question": "가상메모리를 지원하는 운영체제에서 성능은 가상주소를 실 주소로 변환하는 DAT(Dynamic Address Translation)에 의해 영향을 받는다. DAT를 빠른 순서에서 느린 순서로 나열한 것 은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "직접사상 – 연관사상 – 직접/연관사상"
+        },
+        {
+          "num": 2,
+          "text": "연관사상 – 직접사상 – 직접/연관사상"
+        },
+        {
+          "num": 3,
+          "text": "직접/연관사상 – 직접사상 – 연관사상"
+        },
+        {
+          "num": 4,
+          "text": "연관사상 – 직접/연관사상 – 직접사상"
+        }
+      ],
+      "correct_answer": 4,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q003",
+      "number": 3,
+      "subject_id": 1,
+      "subject_name": "시스템 보안",
+      "question": "다음 설명하고 있는 스케줄링 기법은 무엇인가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "선입선출(FIFO)"
+        },
+        {
+          "num": 2,
+          "text": "SJF"
+        },
+        {
+          "num": 3,
+          "text": "우선순위"
+        },
+        {
+          "num": 4,
+          "text": "다단계큐"
+        }
+      ],
+      "correct_answer": 2,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q004",
+      "number": 4,
+      "subject_id": 1,
+      "subject_name": "시스템 보안",
+      "question": "다음 중 버퍼 오버플로우 대응책으로 올바르지 못한 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "버퍼 오퍼플로우 취약점이 생기지 않도록 패치를 정기적 으로 한다."
+        },
+        {
+          "num": 2,
+          "text": "문자길이를 검사하지 않는 함수를 사용하지 않고 안전한 프로그래밍을 해야 한다."
+        },
+        {
+          "num": 3,
+          "text": "함수로부터 복귀할 때 스택의 무결성을 검사한다."
+        },
+        {
+          "num": 4,
+          "text": "사용자의 스택 혹은 힙 영역의 쓰기 및 실행권한을 준다."
+        }
+      ],
+      "correct_answer": 4,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q005",
+      "number": 5,
+      "subject_id": 1,
+      "subject_name": "시스템 보안",
+      "question": "다음은 리눅스 파일권한에 대한 설명이다. 올바르지 못한 것 은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "ls –al명령어로 권한을 자세히 볼 수 있다."
+        },
+        {
+          "num": 2,
+          "text": "chmod명령어는 파일, 디렉토리명을 수정할 수 있다."
+        },
+        {
+          "num": 3,
+          "text": "맨앞에 문자가‘-’이면 파일, ‘d’이면 디렉토리, ‘l’이면 링 크이다."
+        },
+        {
+          "num": 4,
+          "text": "chown 명령어는 파일소유자, 파일소유그룹을 수정 할 수 있다."
+        }
+      ],
+      "correct_answer": 2,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q006",
+      "number": 6,
+      "subject_id": 1,
+      "subject_name": "시스템 보안",
+      "question": "다음중 레지스트리 키 값에 없는 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "HKEY_CLASSES_ROOT"
+        },
+        {
+          "num": 2,
+          "text": "HKEY_LOCAL_MACHINE_SAM"
+        },
+        {
+          "num": 3,
+          "text": "HKEY_USERS"
+        },
+        {
+          "num": 4,
+          "text": "HKEY_CURRENT_USER"
+        }
+      ],
+      "correct_answer": 2,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q007",
+      "number": 7,
+      "subject_id": 1,
+      "subject_name": "시스템 보안",
+      "question": "다음 보여주고 있는 아파치 관련 설정파일은 무엇인가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "httpd.conf"
+        },
+        {
+          "num": 2,
+          "text": "apache.conf"
+        },
+        {
+          "num": 3,
+          "text": "virtualhost.conf"
+        },
+        {
+          "num": 4,
+          "text": "server.conf"
+        }
+      ],
+      "correct_answer": 1,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q008",
+      "number": 8,
+      "subject_id": 1,
+      "subject_name": "시스템 보안",
+      "question": "다음중 패스워드로 가장 강력한 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "123qwe"
+        },
+        {
+          "num": 2,
+          "text": "wJqHdK12!%$"
+        },
+        {
+          "num": 3,
+          "text": "ASDqwe"
+        },
+        {
+          "num": 4,
+          "text": "qwerasdf"
+        }
+      ],
+      "correct_answer": 2,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q009",
+      "number": 9,
+      "subject_id": 1,
+      "subject_name": "시스템 보안",
+      "question": "시스템 무결성을 유지하기 위한 명령어는 무엇인가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "halt"
+        },
+        {
+          "num": 2,
+          "text": "shutdown"
+        },
+        {
+          "num": 3,
+          "text": "reload"
+        },
+        {
+          "num": 4,
+          "text": "reboot"
+        }
+      ],
+      "correct_answer": 2,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q010",
+      "number": 10,
+      "subject_id": 1,
+      "subject_name": "시스템 보안",
+      "question": "다음 중 HTTP/1.1 프로토콜에 대한 설명으로 올바르지 않 은 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "클라이언트가 서버에 커넥션을 시도한다."
+        },
+        {
+          "num": 2,
+          "text": "HTTP/1.1 GET방식으로 데이터를 요청한다."
+        },
+        {
+          "num": 3,
+          "text": "서버는 해당 데이터를 검색하여 클라이언트에게 전달한 다."
+        },
+        {
+          "num": 4,
+          "text": "POST는 클라이언트가 정보를 받아들이고 클라이언트에 서 동작하도록 요청하는 방식이다."
+        }
+      ],
+      "correct_answer": 4,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q011",
+      "number": 11,
+      "subject_id": 1,
+      "subject_name": "시스템 보안",
+      "question": "공유폴더 사용권한의 특징에 대한 설명으로 올바르지 못한 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "공유폴더 사용권한은 파일에도 적용된다."
+        },
+        {
+          "num": 2,
+          "text": "NTFS사용권한보다 약한 보안을 제공한다."
+        },
+        {
+          "num": 3,
+          "text": "네트워크 접근 사용만을 제한하고 로컬접속을 제어할 수 없다."
+        },
+        {
+          "num": 4,
+          "text": "기본 공유폴더 사용권한은 Everyone 그룹에게 모든 권 한이 주어진다."
+        }
+      ],
+      "correct_answer": 1,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q012",
+      "number": 12,
+      "subject_id": 1,
+      "subject_name": "시스템 보안",
+      "question": "프로세스 교착상태 발생조건에 해당되지 않는 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "점유와 대기"
+        },
+        {
+          "num": 2,
+          "text": "상호배제"
+        },
+        {
+          "num": 3,
+          "text": "비중단조건"
+        },
+        {
+          "num": 4,
+          "text": "중단조건"
+        }
+      ],
+      "correct_answer": 4,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q013",
+      "number": 13,
+      "subject_id": 1,
+      "subject_name": "시스템 보안",
+      "question": "다음 나열된 도구들이 공통적으로 가지고 있는 특징은 무엇 인가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "다중취약점 스캔"
+        },
+        {
+          "num": 2,
+          "text": "특정취약점 스캔"
+        },
+        {
+          "num": 3,
+          "text": "은닉스캔"
+        },
+        {
+          "num": 4,
+          "text": "네트워크 구조 스캔"
+        }
+      ],
+      "correct_answer": 2,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q014",
+      "number": 14,
+      "subject_id": 1,
+      "subject_name": "시스템 보안",
+      "question": "다음중 기본 공유폴더 형태가 아닌 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "C$"
+        },
+        {
+          "num": 2,
+          "text": "ADMIN$"
+        },
+        {
+          "num": 3,
+          "text": "PRINT$"
+        },
+        {
+          "num": 4,
+          "text": "IPC$"
+        }
+      ],
+      "correct_answer": 3,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q015",
+      "number": 15,
+      "subject_id": 1,
+      "subject_name": "시스템 보안",
+      "question": "다음은 리눅스 시스템 최적화 모니터링 명령어들이다. 무엇 을 모니터링 하는 명령어인가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "CPU문제점 점검"
+        },
+        {
+          "num": 2,
+          "text": "메모리 문제점 점검"
+        },
+        {
+          "num": 3,
+          "text": "디스크I/O문제점 점검"
+        },
+        {
+          "num": 4,
+          "text": "네트워크 문제점 점검"
+        }
+      ],
+      "correct_answer": 2,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q016",
+      "number": 16,
+      "subject_id": 1,
+      "subject_name": "시스템 보안",
+      "question": "TCP_WRAPPER 활용시에 로그파일은 일반적으로 ( )과 ( ) 파일에 기록된다. 괄호안에 순서대로 알맞은 내용은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "dmessage, secure"
+        },
+        {
+          "num": 2,
+          "text": "message, secure"
+        },
+        {
+          "num": 3,
+          "text": "btmp, message"
+        },
+        {
+          "num": 4,
+          "text": "wtmp, secure"
+        }
+      ],
+      "correct_answer": 2,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q017",
+      "number": 17,
+      "subject_id": 1,
+      "subject_name": "시스템 보안",
+      "question": "다음에서 설명하고 있는 스캔탐지도구는 무엇인가? 1과목 : 시스템 보안 정보보안기사 ◐ 2014년 04월 05일 필기 기출문제 ◑ 전자문제집 CBT : www.comcbt.com 최강 자격증 기출문제 전자문제집 CBT : www.comcbt.com",
+      "options": [
+        {
+          "num": 1,
+          "text": "SARA"
+        },
+        {
+          "num": 2,
+          "text": "NESSUS"
+        },
+        {
+          "num": 3,
+          "text": "PORTSENTRY"
+        },
+        {
+          "num": 4,
+          "text": "NIKTO2"
+        }
+      ],
+      "correct_answer": 3,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q018",
+      "number": 18,
+      "subject_id": 1,
+      "subject_name": "시스템 보안",
+      "question": "파일이 생성되는 순간부터 로그인가 로그아웃의 정보를 보 여주는 로그 파일은 무엇인가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "wtmp"
+        },
+        {
+          "num": 2,
+          "text": "utmp"
+        },
+        {
+          "num": 3,
+          "text": "last"
+        },
+        {
+          "num": 4,
+          "text": "secure"
+        }
+      ],
+      "correct_answer": 1,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q019",
+      "number": 19,
+      "subject_id": 1,
+      "subject_name": "시스템 보안",
+      "question": "다음 중 커널에 대한 설명으로 올바르지 못한 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "커널은 프로세스, 파일시스템, 메모리 , 네트워크의 관리 를 맡는다."
+        },
+        {
+          "num": 2,
+          "text": "컴퓨터 운영체제 핵심으로서 컴퓨터의 가장 기본적인 각 장치들을 관리하고 제어하기 위한 소프트웨어이다."
+        },
+        {
+          "num": 3,
+          "text": "장치 혹은 시스템의 기능과 관련된 변화가 있을 경우 새 로운 커널을 생성해야한다."
+        },
+        {
+          "num": 4,
+          "text": "유닉스 계열의 시스템이 부팅될 때 가장 먼저 읽히는 운 영체제의 핵심으로 보조기억장치에 상주한다."
+        }
+      ],
+      "correct_answer": 4,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q020",
+      "number": 20,
+      "subject_id": 1,
+      "subject_name": "시스템 보안",
+      "question": "버퍼오버플로우에 대한 설명으로 올바르지 않은 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "버퍼에 저장된 프로세스 간의 자원 경쟁을 야기해 권한 을 획득하는 기법으로 공격하는 방식이다."
+        },
+        {
+          "num": 2,
+          "text": "오버플로우에는 힙오버플로우와 스택오버플로우가 있다."
+        },
+        {
+          "num": 3,
+          "text": "버퍼오버플로우가 발생하면 데이터는 인접한 포인트 영 역까지 침범한다."
+        },
+        {
+          "num": 4,
+          "text": "대응책은 데이터가 들어가는 배열의 읽기, 쓰기가 배열 범위를 벗어나지 않는지 검사한다."
+        }
+      ],
+      "correct_answer": 1,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q021",
+      "number": 21,
+      "subject_id": 2,
+      "subject_name": "네트워크 보안",
+      "question": "다음 나열된 장비 중 네트워크 계층에서 이용하는 장비는 무엇인가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "리피터"
+        },
+        {
+          "num": 2,
+          "text": "허브"
+        },
+        {
+          "num": 3,
+          "text": "브릿지"
+        },
+        {
+          "num": 4,
+          "text": "라우터"
+        }
+      ],
+      "correct_answer": 4,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q022",
+      "number": 22,
+      "subject_id": 2,
+      "subject_name": "네트워크 보안",
+      "question": "다음중 IP클래스 범위로 올바르지 않은 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "A : 0.0.0.0 ~ 127.255.255.255"
+        },
+        {
+          "num": 2,
+          "text": "B : 128.0.0.0 ~ 191.255.255.255"
+        },
+        {
+          "num": 3,
+          "text": "C: 193.0.0.0 ~ 223.255.255.255"
+        },
+        {
+          "num": 4,
+          "text": "D : 224.0.0.0. ~ 239.255.255.255"
+        }
+      ],
+      "correct_answer": 3,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q023",
+      "number": 23,
+      "subject_id": 2,
+      "subject_name": "네트워크 보안",
+      "question": "다음은 IPSec 프로토콜에 대한 설명이다. 괄호안에 알맞은 내용으로 연결된 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "AH-ESP-IKE"
+        },
+        {
+          "num": 2,
+          "text": "ESP-IKE-AH"
+        },
+        {
+          "num": 3,
+          "text": "ESP-AH-IKE"
+        },
+        {
+          "num": 4,
+          "text": "IKE-ESP-AH"
+        }
+      ],
+      "correct_answer": 1,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q024",
+      "number": 24,
+      "subject_id": 2,
+      "subject_name": "네트워크 보안",
+      "question": "다음과 같은 사이버 공격기법을 무엇이라 하는가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "APT 공격"
+        },
+        {
+          "num": 2,
+          "text": "드라이브 바이 다운로드 공격"
+        },
+        {
+          "num": 3,
+          "text": "워터링 홀 공격"
+        },
+        {
+          "num": 4,
+          "text": "랜섬웨어 공격"
+        }
+      ],
+      "correct_answer": 1,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q025",
+      "number": 25,
+      "subject_id": 2,
+      "subject_name": "네트워크 보안",
+      "question": "내부에서 백신설치 여부나 컴퓨터 이름 등으로 pc나 노트북 등 매체등을 제어할 수 있는 솔루션을 무엇이라 하는가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "ESM"
+        },
+        {
+          "num": 2,
+          "text": "MDM"
+        },
+        {
+          "num": 3,
+          "text": "NAC"
+        },
+        {
+          "num": 4,
+          "text": "SEIM"
+        }
+      ],
+      "correct_answer": 3,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q026",
+      "number": 26,
+      "subject_id": 2,
+      "subject_name": "네트워크 보안",
+      "question": "설명하고 있는 네트워크 공격방법은 무엇인가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "ARP 스니핑"
+        },
+        {
+          "num": 2,
+          "text": "ICMP Redirect"
+        },
+        {
+          "num": 3,
+          "text": "ARP 스푸핑"
+        },
+        {
+          "num": 4,
+          "text": "스위치 재밍"
+        }
+      ],
+      "correct_answer": 4,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q027",
+      "number": 27,
+      "subject_id": 2,
+      "subject_name": "네트워크 보안",
+      "question": "스위치 환경에서 나타나는 스니핑 기법이 아닌 것은 무엇인 가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "스위치 재밍"
+        },
+        {
+          "num": 2,
+          "text": "ICMP Redirect"
+        },
+        {
+          "num": 3,
+          "text": "ARP 스푸핑"
+        },
+        {
+          "num": 4,
+          "text": "세션하이재킹"
+        }
+      ],
+      "correct_answer": 4,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q028",
+      "number": 28,
+      "subject_id": 2,
+      "subject_name": "네트워크 보안",
+      "question": "라우터는 목적지까지 가는 최단경로를 계산하기 위해 다익 스트라 알고리즘을 사용한다. 가장 적합한 라우팅 알고리즘 은 무엇인가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "RIP"
+        },
+        {
+          "num": 2,
+          "text": "IGRP"
+        },
+        {
+          "num": 3,
+          "text": "OSPF"
+        },
+        {
+          "num": 4,
+          "text": "EIGRP"
+        }
+      ],
+      "correct_answer": 3,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q029",
+      "number": 29,
+      "subject_id": 2,
+      "subject_name": "네트워크 보안",
+      "question": "다음에서 설명하는 프로세스 스케줄링 방법은 무엇인가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "FIFO"
+        },
+        {
+          "num": 2,
+          "text": "SJF"
+        },
+        {
+          "num": 3,
+          "text": "RR"
+        },
+        {
+          "num": 4,
+          "text": "MLFQ"
+        }
+      ],
+      "correct_answer": 4,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q030",
+      "number": 30,
+      "subject_id": 2,
+      "subject_name": "네트워크 보안",
+      "question": "다음에서 설명하고 있는 것은? 2과목 : 네트워크 보안 정보보안기사 ◐ 2014년 04월 05일 필기 기출문제 ◑ 전자문제집 CBT : www.comcbt.com 최강 자격증 기출문제 전자문제집 CBT : www.comcbt.com",
+      "options": [
+        {
+          "num": 1,
+          "text": "인터럽트 출력"
+        },
+        {
+          "num": 2,
+          "text": "RTC"
+        },
+        {
+          "num": 3,
+          "text": "FSB"
+        },
+        {
+          "num": 4,
+          "text": "오버클럭"
+        }
+      ],
+      "correct_answer": 1,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q031",
+      "number": 31,
+      "subject_id": 2,
+      "subject_name": "네트워크 보안",
+      "question": "ICMP에서 TTL=0이 되어 도달할 때 메시지는 무엇인가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "ICMP unreachable"
+        },
+        {
+          "num": 2,
+          "text": "echo reply"
+        },
+        {
+          "num": 3,
+          "text": "TTL exceeded"
+        },
+        {
+          "num": 4,
+          "text": "echo request"
+        }
+      ],
+      "correct_answer": 3,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q032",
+      "number": 32,
+      "subject_id": 2,
+      "subject_name": "네트워크 보안",
+      "question": "다음 보기에서 설명하고 있는 네트워크 토폴로지는 무엇인 가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "메시형"
+        },
+        {
+          "num": 2,
+          "text": "스타형"
+        },
+        {
+          "num": 3,
+          "text": "트리형"
+        },
+        {
+          "num": 4,
+          "text": "버스형"
+        }
+      ],
+      "correct_answer": 2,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q033",
+      "number": 33,
+      "subject_id": 2,
+      "subject_name": "네트워크 보안",
+      "question": "모든IT시스템에서 생성되는 로그와 이벤트를 통합관리래 외 부 위험을 사전에 예측하고 내부 정보 유출을 방지할 수 있 도록 하는 개념의 보안 솔루션은 무엇인가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "ESM"
+        },
+        {
+          "num": 2,
+          "text": "IAM"
+        },
+        {
+          "num": 3,
+          "text": "SIEM"
+        },
+        {
+          "num": 4,
+          "text": "DLP"
+        }
+      ],
+      "correct_answer": 3,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q034",
+      "number": 34,
+      "subject_id": 2,
+      "subject_name": "네트워크 보안",
+      "question": "다음 포트스캔 중 공격자가 공격했을 때 포그가 열린 경우 돌아오는 응답이 다른 하나는?",
+      "options": [
+        {
+          "num": 1,
+          "text": "FIN"
+        },
+        {
+          "num": 2,
+          "text": "NULL"
+        },
+        {
+          "num": 3,
+          "text": "TCP"
+        },
+        {
+          "num": 4,
+          "text": "UDP"
+        }
+      ],
+      "correct_answer": 3,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q035",
+      "number": 35,
+      "subject_id": 2,
+      "subject_name": "네트워크 보안",
+      "question": "다음 설명하고 잇는 공격방식은 무엇인가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "Land attack"
+        },
+        {
+          "num": 2,
+          "text": "Ping of Death"
+        },
+        {
+          "num": 3,
+          "text": "Tear Drop"
+        },
+        {
+          "num": 4,
+          "text": "Smurf Attack"
+        }
+      ],
+      "correct_answer": 1,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q036",
+      "number": 36,
+      "subject_id": 2,
+      "subject_name": "네트워크 보안",
+      "question": "스니핑 방지 대책으로 올바르지 않은 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "원격 접속 시에는 SSH프로토콜을 이용하여 전송간 암호 화한다."
+        },
+        {
+          "num": 2,
+          "text": "메일 사용 시에 S/MIME가 적용된 안전한 메일을 이용한 다."
+        },
+        {
+          "num": 3,
+          "text": "전자상거래 이용 시 SSL이 적용된 사이트를 이용한다."
+        },
+        {
+          "num": 4,
+          "text": "스위치에서 MAC주소 테이블을 동적으로 지정한다."
+        }
+      ],
+      "correct_answer": 4,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q037",
+      "number": 37,
+      "subject_id": 2,
+      "subject_name": "네트워크 보안",
+      "question": "다음 중 IPSec VPN프로토콜에 대한 설명으로 올바르지 않 은 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "IPSec은 3계층 프로토콜이다."
+        },
+        {
+          "num": 2,
+          "text": "AH와 ESP기능을 지원한다."
+        },
+        {
+          "num": 3,
+          "text": "종단시스템에서 출발하고 종단시스템에서 수신하는 모드 를 터널모드라한다."
+        },
+        {
+          "num": 4,
+          "text": "IETF에 의해 IP계층 보안을 위한 개방형 구조로 설계된 VPN기술이다."
+        }
+      ],
+      "correct_answer": 3,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q038",
+      "number": 38,
+      "subject_id": 2,
+      "subject_name": "네트워크 보안",
+      "question": "다음 중 무선 랜 보안대책 수립으로 올바르지 못한 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "AP전파가 건물 내로 한정 되도록 한다."
+        },
+        {
+          "num": 2,
+          "text": "AP는 외부인이 쉽게 접근하거나 공개된 장소에 설치한 다."
+        },
+        {
+          "num": 3,
+          "text": "AP가 제공하는 강력한 키를 설정하고 주기적으로 변경 한다."
+        },
+        {
+          "num": 4,
+          "text": "WIPS등을 설치하여 불법접근이나 악의적인 의도 차단을 모니터링한다."
+        }
+      ],
+      "correct_answer": 2,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q039",
+      "number": 39,
+      "subject_id": 2,
+      "subject_name": "네트워크 보안",
+      "question": "시스템에 대한 침임 탐지와 차단을 동시에 할 수 있는 솔루 션은 무엇인가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "SIEM"
+        },
+        {
+          "num": 2,
+          "text": "ESM"
+        },
+        {
+          "num": 3,
+          "text": "IPS"
+        },
+        {
+          "num": 4,
+          "text": "IDS"
+        }
+      ],
+      "correct_answer": 3,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q040",
+      "number": 40,
+      "subject_id": 2,
+      "subject_name": "네트워크 보안",
+      "question": "다음에서 설명하고 있는 네트워크 공격 기법은 무엇인가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "세션하이재킹"
+        },
+        {
+          "num": 2,
+          "text": "IP스푸핑"
+        },
+        {
+          "num": 3,
+          "text": "ARP스푸핑"
+        },
+        {
+          "num": 4,
+          "text": "스니핑공격"
+        }
+      ],
+      "correct_answer": 3,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q041",
+      "number": 41,
+      "subject_id": 3,
+      "subject_name": "애플리케이션 보안",
+      "question": "FTP전송 모드에 대한 설명으로 올바른 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "기본은 액티브 모드이며, 패시브 모드 변경은 FTP서버가 결정한다."
+        },
+        {
+          "num": 2,
+          "text": "기본은 액티브 모드이며, 패시브 모드 변경은 FTP클라이 언트가 결정한다."
+        },
+        {
+          "num": 3,
+          "text": "기본은 패시브 모드이며, 패시브 모드 변경은 FTP서버가 결정한다."
+        },
+        {
+          "num": 4,
+          "text": "기본은 패시브 모드이며, 패시브 모드 변경은 FTP클라이 언트가 결정한다."
+        }
+      ],
+      "correct_answer": 2,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q042",
+      "number": 42,
+      "subject_id": 3,
+      "subject_name": "애플리케이션 보안",
+      "question": "FTP접속 시 PORT 명령으로 보기와 같은 내용을 확인 하였 다. 다음접속 포트는 몇 번인가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "2,320"
+        },
+        {
+          "num": 2,
+          "text": "2,321"
+        },
+        {
+          "num": 3,
+          "text": "2,322"
+        },
+        {
+          "num": 4,
+          "text": "2,323"
+        }
+      ],
+      "correct_answer": 2,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q043",
+      "number": 43,
+      "subject_id": 3,
+      "subject_name": "애플리케이션 보안",
+      "question": "전자상거래 프로토콜 중에서 주문정보와 지불정보를 안전하 게 이용할 수 있도록 하는 프로토콜은 무엇인가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "단체서명"
+        },
+        {
+          "num": 2,
+          "text": "단독서명"
+        },
+        {
+          "num": 3,
+          "text": "이중서명"
+        },
+        {
+          "num": 4,
+          "text": "은닉서명 3과목 : 어플리케이션 보안 정보보안기사 ◐ 2014년 04월 05일 필기 기출문제 ◑ 전자문제집 CBT : www.comcbt.com 최강 자격증 기출문제 전자문제집 CBT : www.comcbt.com"
+        }
+      ],
+      "correct_answer": 3,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q044",
+      "number": 44,
+      "subject_id": 3,
+      "subject_name": "애플리케이션 보안",
+      "question": "전자투표와 전자화폐의 공통된 요구조건 사항은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "양도성"
+        },
+        {
+          "num": 2,
+          "text": "익명성(비밀성)"
+        },
+        {
+          "num": 3,
+          "text": "단일성"
+        },
+        {
+          "num": 4,
+          "text": "합법성"
+        }
+      ],
+      "correct_answer": 2,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q045",
+      "number": 45,
+      "subject_id": 3,
+      "subject_name": "애플리케이션 보안",
+      "question": "다음 설명하고 있는 보안 전자우편시스템 프로토콜은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "PEM"
+        },
+        {
+          "num": 2,
+          "text": "MIME"
+        },
+        {
+          "num": 3,
+          "text": "S/MIME"
+        },
+        {
+          "num": 4,
+          "text": "PGP"
+        }
+      ],
+      "correct_answer": 3,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q046",
+      "number": 46,
+      "subject_id": 3,
+      "subject_name": "애플리케이션 보안",
+      "question": "다음 전자투표 방식 중 군중이 밀집한 지역에 투표기가 설 치되어 투표할 수 있는 무인투표 시스템방식은 무엇인가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "키오스크방식"
+        },
+        {
+          "num": 2,
+          "text": "PSEV방식"
+        },
+        {
+          "num": 3,
+          "text": "REV방식"
+        },
+        {
+          "num": 4,
+          "text": "LKR방식"
+        }
+      ],
+      "correct_answer": 1,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q047",
+      "number": 47,
+      "subject_id": 3,
+      "subject_name": "애플리케이션 보안",
+      "question": "다음중 가치 저장형 전자화폐 프로토콜이 아닌 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "몬덱스"
+        },
+        {
+          "num": 2,
+          "text": "Visa Cash"
+        },
+        {
+          "num": 3,
+          "text": "K-Cash"
+        },
+        {
+          "num": 4,
+          "text": "Milicent"
+        }
+      ],
+      "correct_answer": 4,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q048",
+      "number": 48,
+      "subject_id": 3,
+      "subject_name": "애플리케이션 보안",
+      "question": "다음에서 설명하고 있는 OTP(일회용패스워드)생성 방식은 무엇인가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "시간동기화 방식"
+        },
+        {
+          "num": 2,
+          "text": "이벤트통기화 방식"
+        },
+        {
+          "num": 3,
+          "text": "질문응답방식"
+        },
+        {
+          "num": 4,
+          "text": "조합방식"
+        }
+      ],
+      "correct_answer": 1,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q049",
+      "number": 49,
+      "subject_id": 3,
+      "subject_name": "애플리케이션 보안",
+      "question": "다음 설명하고 있는 DB접근 제어방식은 무엇인가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "접근통제"
+        },
+        {
+          "num": 2,
+          "text": "흐름제어"
+        },
+        {
+          "num": 3,
+          "text": "추론제어"
+        },
+        {
+          "num": 4,
+          "text": "데이터 제어"
+        }
+      ],
+      "correct_answer": 3,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q050",
+      "number": 50,
+      "subject_id": 3,
+      "subject_name": "애플리케이션 보안",
+      "question": "메일과 관련이 없는 서비스 포트는?",
+      "options": [
+        {
+          "num": 1,
+          "text": "109"
+        },
+        {
+          "num": 2,
+          "text": "995"
+        },
+        {
+          "num": 3,
+          "text": "993"
+        },
+        {
+          "num": 4,
+          "text": "163"
+        }
+      ],
+      "correct_answer": 4,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q051",
+      "number": 51,
+      "subject_id": 3,
+      "subject_name": "애플리케이션 보안",
+      "question": "다음 중 OWASP TOP10 2013에 포함되지 않는 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "인젝션"
+        },
+        {
+          "num": 2,
+          "text": "URL접근제한 실패"
+        },
+        {
+          "num": 3,
+          "text": "XSS"
+        },
+        {
+          "num": 4,
+          "text": "크로스사이트 요청변조"
+        }
+      ],
+      "correct_answer": 2,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q052",
+      "number": 52,
+      "subject_id": 3,
+      "subject_name": "애플리케이션 보안",
+      "question": "다음에서 설명하고 있는 웹 공격 방법은 무엇인가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "알려진 취약점 컴포넌트 사용"
+        },
+        {
+          "num": 2,
+          "text": "크로스사이트 요청변조"
+        },
+        {
+          "num": 3,
+          "text": "민감한 데이터 노출"
+        },
+        {
+          "num": 4,
+          "text": "인증 및 세션관리 취약점"
+        }
+      ],
+      "correct_answer": 2,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q053",
+      "number": 53,
+      "subject_id": 3,
+      "subject_name": "애플리케이션 보안",
+      "question": "소프트웨어 보안약점 중 보안기능을 적절하지 않게 구현했 을 때 발생할 수 있는 보안 약점이 아닌 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "부적절할 인가"
+        },
+        {
+          "num": 2,
+          "text": "패스워드 평문저장"
+        },
+        {
+          "num": 3,
+          "text": "제어문을 사용하지 않는 재귀함수"
+        },
+        {
+          "num": 4,
+          "text": "사용자 중요정보 평문 전송"
+        }
+      ],
+      "correct_answer": 3,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q054",
+      "number": 54,
+      "subject_id": 3,
+      "subject_name": "애플리케이션 보안",
+      "question": "SET프로토콜의 장점이 아닌 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "전자거래의 사기를 방지한다"
+        },
+        {
+          "num": 2,
+          "text": "기존 신용카드 기반 그대로 활용한다."
+        },
+        {
+          "num": 3,
+          "text": "SSL의 단점을 해결한다."
+        },
+        {
+          "num": 4,
+          "text": "암호 프로토콜이 너무 복잡하다."
+        }
+      ],
+      "correct_answer": 4,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q055",
+      "number": 55,
+      "subject_id": 3,
+      "subject_name": "애플리케이션 보안",
+      "question": "다음 설명 중 SSL프로토콜에 대한 설명으로 올바르지 못한 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "1994년 네스케이프사에서 처음 제안하였다."
+        },
+        {
+          "num": 2,
+          "text": "1996년 IETF에서 SSL3.0을 제안하였다."
+        },
+        {
+          "num": 3,
+          "text": "SSL이 적용되었다는 표시로 SHTTP라고 사용한다."
+        },
+        {
+          "num": 4,
+          "text": "SSL프로토콜은 TCP계층과 응용계층 사이에서 동작한다."
+        }
+      ],
+      "correct_answer": 3,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q056",
+      "number": 56,
+      "subject_id": 3,
+      "subject_name": "애플리케이션 보안",
+      "question": "다음 중 지불브로커 시스템 특징이 아닌 것은 무엇인가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "독립적 신용구조를 갖지 않는다."
+        },
+        {
+          "num": 2,
+          "text": "신용카드, 은행을 이용하여 지불하도록 연결하는 구조이 다."
+        },
+        {
+          "num": 3,
+          "text": "현실적 전자 지불 시스템이다."
+        },
+        {
+          "num": 4,
+          "text": "실제 화폐를 대치할 수 있다."
+        }
+      ],
+      "correct_answer": 4,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q057",
+      "number": 57,
+      "subject_id": 3,
+      "subject_name": "애플리케이션 보안",
+      "question": "다음 중 전자입찰시스템에서 요구하는 안전성에 포함되지 않는 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "단일성"
+        },
+        {
+          "num": 2,
+          "text": "비밀성"
+        },
+        {
+          "num": 3,
+          "text": "무결성"
+        },
+        {
+          "num": 4,
+          "text": "공평성"
+        }
+      ],
+      "correct_answer": 1,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q058",
+      "number": 58,
+      "subject_id": 3,
+      "subject_name": "애플리케이션 보안",
+      "question": "다음 중 ebXML 종류에 포함되지 않는 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "SAML"
+        },
+        {
+          "num": 2,
+          "text": "XKMS"
+        },
+        {
+          "num": 3,
+          "text": "XACML"
+        },
+        {
+          "num": 4,
+          "text": "CALS"
+        }
+      ],
+      "correct_answer": 4,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q059",
+      "number": 59,
+      "subject_id": 3,
+      "subject_name": "애플리케이션 보안",
+      "question": "Mod_security 아파치 모듈 기능에 포함되지 않는 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "Request filtering : 요청이 들어와서 웹서버나 다른 모듈 에 의해 사용되기전에 요청을 분석한다."
+        },
+        {
+          "num": 2,
+          "text": "Anti-evasion TechnIques : 회피공격에 대응하기 위해 분석 전에경로나 파라미터 값들을 표준화 한다."
+        },
+        {
+          "num": 3,
+          "text": "Audit Logging : 사후 사고에 대한 분석을 위한 세부 상 황 기록기능은 없다. 정보보안기사 ◐ 2014년 04월 05일 필기 기출문제 ◑ 전자문제집 CBT : www.comcbt.com 최강 자격증 기출문제 전자문제집 CBT : www.comcbt.com"
+        },
+        {
+          "num": 4,
+          "text": "HTTPS Filtering : 웹서버에 모듈로 끼워지기 때문에 요 청된 데이터가 복호화 된 후 에 접근이 가능하다."
+        }
+      ],
+      "correct_answer": 3,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q060",
+      "number": 60,
+      "subject_id": 3,
+      "subject_name": "애플리케이션 보안",
+      "question": "다음에서 설명하고 있는 DNS공격 방법은 무엇인가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "DNS DDOS"
+        },
+        {
+          "num": 2,
+          "text": "DNS하이재킹"
+        },
+        {
+          "num": 3,
+          "text": "DNS 캐시 포이즈닝 공격"
+        },
+        {
+          "num": 4,
+          "text": "DNSSEC"
+        }
+      ],
+      "correct_answer": 3,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q061",
+      "number": 61,
+      "subject_id": 4,
+      "subject_name": "정보보안 일반",
+      "question": "공개키 기반구조(PKI)의 응용분야가 아닌 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "SET"
+        },
+        {
+          "num": 2,
+          "text": "S/MIME"
+        },
+        {
+          "num": 3,
+          "text": "PGP"
+        },
+        {
+          "num": 4,
+          "text": "커버로스"
+        }
+      ],
+      "correct_answer": 4,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q062",
+      "number": 62,
+      "subject_id": 4,
+      "subject_name": "정보보안 일반",
+      "question": "다음에서 설명하는 DRM기술은 무엇인가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "워터마킹"
+        },
+        {
+          "num": 2,
+          "text": "핑거프린팅"
+        },
+        {
+          "num": 3,
+          "text": "템퍼링기술"
+        },
+        {
+          "num": 4,
+          "text": "DOI"
+        }
+      ],
+      "correct_answer": 2,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q063",
+      "number": 63,
+      "subject_id": 4,
+      "subject_name": "정보보안 일반",
+      "question": "다음 중 커버로스에 대한 설명으로 올바르지 못한 것은 무 엇인가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "MIT에서 개발한 분산 환경 하에 개체인증 서비스를 제공 한다."
+        },
+        {
+          "num": 2,
+          "text": "클라이언트, 인증서버, 티켓서버, 서버로 구성된다."
+        },
+        {
+          "num": 3,
+          "text": "커버로스는 공개키 기반으로 만들어 졌다."
+        },
+        {
+          "num": 4,
+          "text": "커버로스의 가장 큰 단점은 재전송공격에 취약하다는 것 이다."
+        }
+      ],
+      "correct_answer": 3,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q064",
+      "number": 64,
+      "subject_id": 4,
+      "subject_name": "정보보안 일반",
+      "question": "실시간 인증서 상태를 알려주는 프로토콜은 무엇인가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "CRL"
+        },
+        {
+          "num": 2,
+          "text": "OCSP"
+        },
+        {
+          "num": 3,
+          "text": "PCA"
+        },
+        {
+          "num": 4,
+          "text": "DPV"
+        }
+      ],
+      "correct_answer": 2,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q065",
+      "number": 65,
+      "subject_id": 4,
+      "subject_name": "정보보안 일반",
+      "question": "다음에서 설명하는 해시함수 성질은 무엇인가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "강한 충돌회피성"
+        },
+        {
+          "num": 2,
+          "text": "약한 충돌회피성"
+        },
+        {
+          "num": 3,
+          "text": "일방향성"
+        },
+        {
+          "num": 4,
+          "text": "계산의 용이성"
+        }
+      ],
+      "correct_answer": 2,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q066",
+      "number": 66,
+      "subject_id": 4,
+      "subject_name": "정보보안 일반",
+      "question": "다음 중 임의적 접근통제 (DAC)설명으로 올바르지 않은 것 은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "객체에 대하여 사용자가 접근권한을 추가 혹은 삭제 할 수 있다."
+        },
+        {
+          "num": 2,
+          "text": "가장 일반적인 구현은 접근통제목록(ACL)을 통해 이루어 진다."
+        },
+        {
+          "num": 3,
+          "text": "ACL은 중앙 집권적 통제방법에 적합하다."
+        },
+        {
+          "num": 4,
+          "text": "대부분 운영체계에서 지원된다."
+        }
+      ],
+      "correct_answer": 3,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q067",
+      "number": 67,
+      "subject_id": 4,
+      "subject_name": "정보보안 일반",
+      "question": "블록암호화 모드 중 암호문 블록이 파손되면 2개의 평문블 록에 영향을 끼치는 운영모드는 무엇인가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "CBC"
+        },
+        {
+          "num": 2,
+          "text": "CFB"
+        },
+        {
+          "num": 3,
+          "text": "OFB"
+        },
+        {
+          "num": 4,
+          "text": "ECB"
+        }
+      ],
+      "correct_answer": 1,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q068",
+      "number": 68,
+      "subject_id": 4,
+      "subject_name": "정보보안 일반",
+      "question": "한 단계 앞의 암호문 블록이 존재하지 않을 때 대신할 비트 열을 무엇이라 하는가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "패딩"
+        },
+        {
+          "num": 2,
+          "text": "스트림"
+        },
+        {
+          "num": 3,
+          "text": "초기벡타(IV)"
+        },
+        {
+          "num": 4,
+          "text": "블록모드"
+        }
+      ],
+      "correct_answer": 3,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q069",
+      "number": 69,
+      "subject_id": 4,
+      "subject_name": "정보보안 일반",
+      "question": "KDC(신뢰분배센터)에 사용자 수가 증가 될 때 영향으로 올 바르지 못한 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "가입자 n의 증가에 따른 키 관리가 복잡해진다."
+        },
+        {
+          "num": 2,
+          "text": "장기간 사용 시 세션 키가 노출 될 위험성이 발생한다."
+        },
+        {
+          "num": 3,
+          "text": "KDC 키가 늘어나지 않는다."
+        },
+        {
+          "num": 4,
+          "text": "가입자 수 N에 따라 한 가입자마다 상대가입자수(N-1) 만큼의 상호 세션키를 비밀리에 보관해야 한다."
+        }
+      ],
+      "correct_answer": 3,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q070",
+      "number": 70,
+      "subject_id": 4,
+      "subject_name": "정보보안 일반",
+      "question": "생일역설(Birthday attack)에 안전한 해시함수 비트는?",
+      "options": [
+        {
+          "num": 1,
+          "text": "64비트"
+        },
+        {
+          "num": 2,
+          "text": "32비트"
+        },
+        {
+          "num": 3,
+          "text": "180비트"
+        },
+        {
+          "num": 4,
+          "text": "128비트"
+        }
+      ],
+      "correct_answer": 3,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q071",
+      "number": 71,
+      "subject_id": 4,
+      "subject_name": "정보보안 일반",
+      "question": "다음 중 암호 운영모드 중 스트림 암호와 같은 역할을 하는 운영모드는?",
+      "options": [
+        {
+          "num": 1,
+          "text": "ECB, CBC"
+        },
+        {
+          "num": 2,
+          "text": "CBC, OFB"
+        },
+        {
+          "num": 3,
+          "text": "OFB, CFB"
+        },
+        {
+          "num": 4,
+          "text": "CTR, OFB"
+        }
+      ],
+      "correct_answer": 3,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q072",
+      "number": 72,
+      "subject_id": 4,
+      "subject_name": "정보보안 일반",
+      "question": "생체인식 기술에서 요구하는 사항에 포함되지 않는 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "보편성"
+        },
+        {
+          "num": 2,
+          "text": "구별성"
+        },
+        {
+          "num": 3,
+          "text": "일시성"
+        },
+        {
+          "num": 4,
+          "text": "획득성"
+        }
+      ],
+      "correct_answer": 3,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q073",
+      "number": 73,
+      "subject_id": 4,
+      "subject_name": "정보보안 일반",
+      "question": "해시함수의 특징으로 올바르지 못한 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "MAC와 달리 키를 사용하지 않는다."
+        },
+        {
+          "num": 2,
+          "text": "에러 탐색기능을 제공한다."
+        },
+        {
+          "num": 3,
+          "text": "해쉬함수 자체는 비밀이 아니기 때문에 해시값을 포함한 암호가 필요하다."
+        },
+        {
+          "num": 4,
+          "text": "메시지 한 비트 변화가 해시코드의 일부의 변화만 가져 온다."
+        }
+      ],
+      "correct_answer": 4,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q074",
+      "number": 74,
+      "subject_id": 4,
+      "subject_name": "정보보안 일반",
+      "question": "커버로스 프로토콜에서 티켓에 포함되는 사항이 아닌 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "서버ID"
+        },
+        {
+          "num": 2,
+          "text": "클라이언트ID"
+        },
+        {
+          "num": 3,
+          "text": "서버의 네트워크주소"
+        },
+        {
+          "num": 4,
+          "text": "티켓의 유효기간"
+        }
+      ],
+      "correct_answer": 3,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q075",
+      "number": 75,
+      "subject_id": 4,
+      "subject_name": "정보보안 일반",
+      "question": "다음 중 접근통제정책에 포함되지 않는 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "DAC"
+        },
+        {
+          "num": 2,
+          "text": "MAC"
+        },
+        {
+          "num": 3,
+          "text": "NAC"
+        },
+        {
+          "num": 4,
+          "text": "RBAC"
+        }
+      ],
+      "correct_answer": 3,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q076",
+      "number": 76,
+      "subject_id": 4,
+      "subject_name": "정보보안 일반",
+      "question": "무결성에 기반 한 접근통제 모델로 낮은 무결성 등급의 데 이터는 읽을 수 없고, 높은 등급의 데이터는 수정 할 수 없 는 접근 통제 모델은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "비바모델"
+        },
+        {
+          "num": 2,
+          "text": "벨-라파듈라모델"
+        },
+        {
+          "num": 3,
+          "text": "클락윌슨모델"
+        },
+        {
+          "num": 4,
+          "text": "접근통제모델"
+        }
+      ],
+      "correct_answer": 1,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q077",
+      "number": 77,
+      "subject_id": 4,
+      "subject_name": "정보보안 일반",
+      "question": "다음과 같은 특성을 가지는 접근통제 모델은 무엇인가? 4과목 : 정보 보안 일반 정보보안기사 ◐ 2014년 04월 05일 필기 기출문제 ◑ 전자문제집 CBT : www.comcbt.com 최강 자격증 기출문제 전자문제집 CBT : www.comcbt.com",
+      "options": [
+        {
+          "num": 1,
+          "text": "클락윌슨모델"
+        },
+        {
+          "num": 2,
+          "text": "벨-라파듈라 모델"
+        },
+        {
+          "num": 3,
+          "text": "비바모델"
+        },
+        {
+          "num": 4,
+          "text": "내부접근통제 모델"
+        }
+      ],
+      "correct_answer": 2,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q078",
+      "number": 78,
+      "subject_id": 4,
+      "subject_name": "정보보안 일반",
+      "question": "공개키 인증서에 포함되지 않는 내용은 무엇인가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "버전"
+        },
+        {
+          "num": 2,
+          "text": "일련번호"
+        },
+        {
+          "num": 3,
+          "text": "유효기간"
+        },
+        {
+          "num": 4,
+          "text": "개인키 정보"
+        }
+      ],
+      "correct_answer": 4,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q079",
+      "number": 79,
+      "subject_id": 4,
+      "subject_name": "정보보안 일반",
+      "question": "인증서 취소사유에 해당되지 않는 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "인증서 발행 조직에서 탈퇴"
+        },
+        {
+          "num": 2,
+          "text": "비밀키 손상"
+        },
+        {
+          "num": 3,
+          "text": "비밀키의 유출의심"
+        },
+        {
+          "num": 4,
+          "text": "공개키의 공유"
+        }
+      ],
+      "correct_answer": 4,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q080",
+      "number": 80,
+      "subject_id": 4,
+      "subject_name": "정보보안 일반",
+      "question": "다음 공개키 암호알고리즘 중에서 이산대수에 기반 한 알고 리즘이 아닌 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "Diffi-Hellman"
+        },
+        {
+          "num": 2,
+          "text": "EI Gamal"
+        },
+        {
+          "num": 3,
+          "text": "DSA"
+        },
+        {
+          "num": 4,
+          "text": "RSA"
+        }
+      ],
+      "correct_answer": 4,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q081",
+      "number": 81,
+      "subject_id": 5,
+      "subject_name": "정보보안 관리 및 법규",
+      "question": "다음 중 법에 따른 암호화 대상이 아닌 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "주민등록번호"
+        },
+        {
+          "num": 2,
+          "text": "바이오정보"
+        },
+        {
+          "num": 3,
+          "text": "비밀번호"
+        },
+        {
+          "num": 4,
+          "text": "전화번호"
+        }
+      ],
+      "correct_answer": 4,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q082",
+      "number": 82,
+      "subject_id": 5,
+      "subject_name": "정보보안 관리 및 법규",
+      "question": "위험의 구성요소가 아닌 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "자산"
+        },
+        {
+          "num": 2,
+          "text": "위협"
+        },
+        {
+          "num": 3,
+          "text": "손실"
+        },
+        {
+          "num": 4,
+          "text": "취약성"
+        }
+      ],
+      "correct_answer": 3,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q083",
+      "number": 83,
+      "subject_id": 5,
+      "subject_name": "정보보안 관리 및 법규",
+      "question": "다음 중 CCTV를 설치할 수 있는 곳이 아닌 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "교도소"
+        },
+        {
+          "num": 2,
+          "text": "교통단속을 위한 도로"
+        },
+        {
+          "num": 3,
+          "text": "범죄 예방을 위한 발열 실(목욕탕, 사우나)"
+        },
+        {
+          "num": 4,
+          "text": "병원"
+        }
+      ],
+      "correct_answer": 3,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q084",
+      "number": 84,
+      "subject_id": 5,
+      "subject_name": "정보보안 관리 및 법규",
+      "question": "다음에서 설명하는 위험처리 방식은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "위험수용"
+        },
+        {
+          "num": 2,
+          "text": "위험회피"
+        },
+        {
+          "num": 3,
+          "text": "위험전가"
+        },
+        {
+          "num": 4,
+          "text": "위험감소"
+        }
+      ],
+      "correct_answer": 2,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q085",
+      "number": 85,
+      "subject_id": 5,
+      "subject_name": "정보보안 관리 및 법규",
+      "question": "다음 중 정량적 위험분석 방법론에 속하지 않는 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "과거자료 분석법"
+        },
+        {
+          "num": 2,
+          "text": "확률분포법"
+        },
+        {
+          "num": 3,
+          "text": "순위결정법"
+        },
+        {
+          "num": 4,
+          "text": "수학공식접근법"
+        }
+      ],
+      "correct_answer": 3,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q086",
+      "number": 86,
+      "subject_id": 5,
+      "subject_name": "정보보안 관리 및 법규",
+      "question": "다음 중 정성적 위험평가 방법에 대한 설명으로 올바르지 못한 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "계산에 대한 노력이 적게 든다."
+        },
+        {
+          "num": 2,
+          "text": "위험분석과정이 지극히 주관적이다."
+        },
+        {
+          "num": 3,
+          "text": "측정결과를 화폐로 표현하기 어렵다."
+        },
+        {
+          "num": 4,
+          "text": "위험관리 성능평가가 용이하다."
+        }
+      ],
+      "correct_answer": 4,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q087",
+      "number": 87,
+      "subject_id": 5,
+      "subject_name": "정보보안 관리 및 법규",
+      "question": "다음 중 개인정보보호법 의한 암호화 대상을 고르면?",
+      "options": [
+        {
+          "num": 1,
+          "text": "주민등록번호"
+        },
+        {
+          "num": 2,
+          "text": "주민등록번호, 여권번호"
+        },
+        {
+          "num": 3,
+          "text": "주민등록번호, 계좌번호, 카드번호"
+        },
+        {
+          "num": 4,
+          "text": "주민등록번호, 계좌번호, 여권번호, 카드번호"
+        }
+      ],
+      "correct_answer": 2,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q088",
+      "number": 88,
+      "subject_id": 5,
+      "subject_name": "정보보안 관리 및 법규",
+      "question": "공인인증서에 포함하지 않는 것은 무엇인가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "가입자 이름"
+        },
+        {
+          "num": 2,
+          "text": "주소"
+        },
+        {
+          "num": 3,
+          "text": "일련번호"
+        },
+        {
+          "num": 4,
+          "text": "유효기간"
+        }
+      ],
+      "correct_answer": 2,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q089",
+      "number": 89,
+      "subject_id": 5,
+      "subject_name": "정보보안 관리 및 법규",
+      "question": "다음 중 공인인증서 소멸 요건이 아닌 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "공인인증서 유효기간이 경과된 경우"
+        },
+        {
+          "num": 2,
+          "text": "공인인증기관의 지정이 취소가 된 경우"
+        },
+        {
+          "num": 3,
+          "text": "공인인증서 효력이 정지된 경우"
+        },
+        {
+          "num": 4,
+          "text": "공인인증서 훼손이 된 경우"
+        }
+      ],
+      "correct_answer": 4,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q090",
+      "number": 90,
+      "subject_id": 5,
+      "subject_name": "정보보안 관리 및 법규",
+      "question": "공인인증서 폐지요건으로 올바르지 못한것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "공인인증서 효력이 정지된 경우"
+        },
+        {
+          "num": 2,
+          "text": "사기 기타 부정한 방법으로 발급받은 사실을 인지한 경 우"
+        },
+        {
+          "num": 3,
+          "text": "사망•실종선고 또는 해산 사실을 인지한 경우"
+        },
+        {
+          "num": 4,
+          "text": "전자서명생성정보가 분실•훼손 또는 도난•유출된 사실을 인지한경우"
+        }
+      ],
+      "correct_answer": 1,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q091",
+      "number": 91,
+      "subject_id": 5,
+      "subject_name": "정보보안 관리 및 법규",
+      "question": "개인정보 누출시 통지해야 할 사항으로 올바르지 못한 것 은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "개인정보 누출항목"
+        },
+        {
+          "num": 2,
+          "text": "개인정보 누출 발생시점과 사유"
+        },
+        {
+          "num": 3,
+          "text": "개인정보 2차 피해를 최소화하기 위한 방안"
+        },
+        {
+          "num": 4,
+          "text": "정보서비스 제공자의 법적 대리인 및 연락처"
+        }
+      ],
+      "correct_answer": 4,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q092",
+      "number": 92,
+      "subject_id": 5,
+      "subject_name": "정보보안 관리 및 법규",
+      "question": "다음 중 공인인증 업무로 적절한 것은 무엇인가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "행정자치부장관은 공인인증업무를 안전하고 신뢰성 있게 수행할 능력이 있다고 인정되는 자를 공인인증기관으로 지정할 수 있다."
+        },
+        {
+          "num": 2,
+          "text": "공인인증기관으로 지정 받을 수 있는 자는 국가기관지방 자치단체에 한한다."
+        },
+        {
+          "num": 3,
+          "text": "공인인증기관 가입자 또는 인증무역 이용자를 부당하게 차별하여서는 아니 된다."
+        },
+        {
+          "num": 4,
+          "text": "공인인증기관이 인증업무를 폐지하고자 하는 때에는 폐 지하고자 하는 날의 30일전까지 이를 가입자에게 통보하 고 미래창조과학부 장관에게 신고하여야 한다."
+        }
+      ],
+      "correct_answer": 3,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q093",
+      "number": 93,
+      "subject_id": 5,
+      "subject_name": "정보보안 관리 및 법규",
+      "question": "개인정보보호법에서 개인정보 수집 시 고지 항목으로 올바 르지 못한 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "이용목적"
+        },
+        {
+          "num": 2,
+          "text": "이용항목"
+        },
+        {
+          "num": 3,
+          "text": "이용기간"
+        },
+        {
+          "num": 4,
+          "text": "파기방법"
+        }
+      ],
+      "correct_answer": 4,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q094",
+      "number": 94,
+      "subject_id": 5,
+      "subject_name": "정보보안 관리 및 법규",
+      "question": "개인정보보보헙에 의한 대리인의 권한 행사 나이는?",
+      "options": [
+        {
+          "num": 1,
+          "text": "만13세 이상"
+        },
+        {
+          "num": 2,
+          "text": "만14세 미만"
+        },
+        {
+          "num": 3,
+          "text": "만16세 이상"
+        },
+        {
+          "num": 4,
+          "text": "만18세 미만"
+        }
+      ],
+      "correct_answer": 2,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q095",
+      "number": 95,
+      "subject_id": 5,
+      "subject_name": "정보보안 관리 및 법규",
+      "question": "개인정보보호법에 따른 사내 개인정보보호 교육의 주기는?",
+      "options": [
+        {
+          "num": 1,
+          "text": "1년에 1회"
+        },
+        {
+          "num": 2,
+          "text": "1년에 2회 5과목 : 정보보안 관리 및 법규 정보보안기사 ◐ 2014년 04월 05일 필기 기출문제 ◑ 전자문제집 CBT : www.comcbt.com 최강 자격증 기출문제 전자문제집 CBT : www.comcbt.com"
+        },
+        {
+          "num": 3,
+          "text": "1년에 3회"
+        },
+        {
+          "num": 4,
+          "text": "1년에 6회"
+        }
+      ],
+      "correct_answer": 1,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q096",
+      "number": 96,
+      "subject_id": 5,
+      "subject_name": "정보보안 관리 및 법규",
+      "question": "다음 중 주요통신기반시설 취약성 평가/분석 기관이 아닌 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "한국정보화진흥훤"
+        },
+        {
+          "num": 2,
+          "text": "한국인터넷진흥원"
+        },
+        {
+          "num": 3,
+          "text": "지식정보보안컨설팅전문업체"
+        },
+        {
+          "num": 4,
+          "text": "한국전자통신연구원"
+        }
+      ],
+      "correct_answer": 1,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q097",
+      "number": 97,
+      "subject_id": 5,
+      "subject_name": "정보보안 관리 및 법규",
+      "question": "개인정보 3자 위탁(제공시 동의) 설명으로 올바르지 못한 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "동의를 받은 경우"
+        },
+        {
+          "num": 2,
+          "text": "개인의 불이익 항목을 고지(알린다)한다."
+        },
+        {
+          "num": 3,
+          "text": "법률에 정한경우"
+        },
+        {
+          "num": 4,
+          "text": "정보서비스보다 개인의 이익이 상당한 때"
+        }
+      ],
+      "correct_answer": 4,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q098",
+      "number": 98,
+      "subject_id": 5,
+      "subject_name": "정보보안 관리 및 법규",
+      "question": "지식정보보안 컨설팅 전문업체 지정 결격사유에 해당하지 않는 것은?",
+      "options": [
+        {
+          "num": 1,
+          "text": "파산선고를 받고 복권되지 않는 사람"
+        },
+        {
+          "num": 2,
+          "text": "미성년자, 금치산자 또는 한정치산자"
+        },
+        {
+          "num": 3,
+          "text": "금고 이상의 실형을 선고받고 면제된 날로부터 1년이 지 나지 않는 사람"
+        },
+        {
+          "num": 4,
+          "text": "금고이상의 형의 집행유예 선고나 그 유예기간에 있는 사람"
+        }
+      ],
+      "correct_answer": 3,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q099",
+      "number": 99,
+      "subject_id": 5,
+      "subject_name": "정보보안 관리 및 법규",
+      "question": "지식정보보안 컨설팅 전문업체 지정에 대한 근거 법은 무엇 인가?",
+      "options": [
+        {
+          "num": 1,
+          "text": "전자서명법"
+        },
+        {
+          "num": 2,
+          "text": "정보통신기반 보호법"
+        },
+        {
+          "num": 3,
+          "text": "정보통신산업진흥법"
+        },
+        {
+          "num": 4,
+          "text": "정보통신망 이용촉진 및 정보보호 등에 관한법률"
+        }
+      ],
+      "correct_answer": 3,
+      "explanation": ""
+    },
+    {
+      "id": "written_2014_03_q100",
+      "number": 100,
+      "subject_id": 5,
+      "subject_name": "정보보안 관리 및 법규",
+      "question": "개인정보처리자가 시스템에 접속한 기록을 최소한 보관해 야 하는 기간은 얼마인가?(2019년 06월 07일 개정된 규정 적용됨)",
+      "options": [
+        {
+          "num": 1,
+          "text": "3개월"
+        },
+        {
+          "num": 2,
+          "text": "6개월"
+        },
+        {
+          "num": 3,
+          "text": "1년"
+        },
+        {
+          "num": 4,
+          "text": "2년 전자문제집 CBT 홈페이지 : www.comcbt.com 기출문제 및 해설집 다운로드 : www.comcbt.com/xe 전자문제집 CBT 앱(구글플레이) : [다운로드] 전자문제집 CBT란? 종이 문제집이 아닌 인터넷으로 문제를 풀고 자동으로 채점하며 모의고사, 오답 노트, 해설까지 제공하는 무료 기출문제 학습 프로그램으로 실제 시험에서 사용하는 OMR 형식의 CBT를 제공합니다. PC 버전 및 모바일 버전 완벽 연동 교사용/학생용 관리기능도 제공합니다. 최신 수정된(오타, 오답, 규정변경) 자료와 해설은 전자문제집 CBT 에서 확인하세요. 1 2 3 4 5 6 7 8 9 10"
+        },
+        {
+          "num": 2,
+          "text": ""
+        },
+        {
+          "num": 4,
+          "text": ""
+        },
+        {
+          "num": 2,
+          "text": ""
+        },
+        {
+          "num": 4,
+          "text": ""
+        },
+        {
+          "num": 2,
+          "text": ""
+        },
+        {
+          "num": 2,
+          "text": ""
+        },
+        {
+          "num": 1,
+          "text": ""
+        },
+        {
+          "num": 2,
+          "text": ""
+        },
+        {
+          "num": 2,
+          "text": ""
+        },
+        {
+          "num": 4,
+          "text": "11 12 13 14 15 16 17 18 19 20"
+        },
+        {
+          "num": 1,
+          "text": ""
+        },
+        {
+          "num": 4,
+          "text": ""
+        },
+        {
+          "num": 2,
+          "text": ""
+        },
+        {
+          "num": 3,
+          "text": ""
+        },
+        {
+          "num": 2,
+          "text": ""
+        },
+        {
+          "num": 2,
+          "text": ""
+        },
+        {
+          "num": 3,
+          "text": ""
+        },
+        {
+          "num": 1,
+          "text": ""
+        },
+        {
+          "num": 4,
+          "text": ""
+        },
+        {
+          "num": 1,
+          "text": "21 22 23 24 25 26 27 28 29 30"
+        },
+        {
+          "num": 4,
+          "text": ""
+        },
+        {
+          "num": 3,
+          "text": ""
+        },
+        {
+          "num": 1,
+          "text": ""
+        },
+        {
+          "num": 1,
+          "text": ""
+        },
+        {
+          "num": 3,
+          "text": ""
+        },
+        {
+          "num": 4,
+          "text": ""
+        },
+        {
+          "num": 4,
+          "text": ""
+        },
+        {
+          "num": 3,
+          "text": ""
+        },
+        {
+          "num": 4,
+          "text": ""
+        },
+        {
+          "num": 1,
+          "text": "31 32 33 34 35 36 37 38 39 40"
+        },
+        {
+          "num": 3,
+          "text": ""
+        },
+        {
+          "num": 2,
+          "text": ""
+        },
+        {
+          "num": 3,
+          "text": ""
+        },
+        {
+          "num": 3,
+          "text": ""
+        },
+        {
+          "num": 1,
+          "text": ""
+        },
+        {
+          "num": 4,
+          "text": ""
+        },
+        {
+          "num": 3,
+          "text": ""
+        },
+        {
+          "num": 2,
+          "text": ""
+        },
+        {
+          "num": 3,
+          "text": ""
+        },
+        {
+          "num": 3,
+          "text": "41 42 43 44 45 46 47 48 49 50"
+        },
+        {
+          "num": 2,
+          "text": ""
+        },
+        {
+          "num": 2,
+          "text": ""
+        },
+        {
+          "num": 3,
+          "text": ""
+        },
+        {
+          "num": 2,
+          "text": ""
+        },
+        {
+          "num": 3,
+          "text": ""
+        },
+        {
+          "num": 1,
+          "text": ""
+        },
+        {
+          "num": 4,
+          "text": ""
+        },
+        {
+          "num": 1,
+          "text": ""
+        },
+        {
+          "num": 3,
+          "text": ""
+        },
+        {
+          "num": 4,
+          "text": "51 52 53 54 55 56 57 58 59 60"
+        },
+        {
+          "num": 2,
+          "text": ""
+        },
+        {
+          "num": 2,
+          "text": ""
+        },
+        {
+          "num": 3,
+          "text": ""
+        },
+        {
+          "num": 4,
+          "text": ""
+        },
+        {
+          "num": 3,
+          "text": ""
+        },
+        {
+          "num": 4,
+          "text": ""
+        },
+        {
+          "num": 1,
+          "text": ""
+        },
+        {
+          "num": 4,
+          "text": ""
+        },
+        {
+          "num": 3,
+          "text": ""
+        },
+        {
+          "num": 3,
+          "text": "61 62 63 64 65 66 67 68 69 70"
+        },
+        {
+          "num": 4,
+          "text": ""
+        },
+        {
+          "num": 2,
+          "text": ""
+        },
+        {
+          "num": 3,
+          "text": ""
+        },
+        {
+          "num": 2,
+          "text": ""
+        },
+        {
+          "num": 2,
+          "text": ""
+        },
+        {
+          "num": 3,
+          "text": ""
+        },
+        {
+          "num": 1,
+          "text": ""
+        },
+        {
+          "num": 3,
+          "text": ""
+        },
+        {
+          "num": 3,
+          "text": ""
+        },
+        {
+          "num": 3,
+          "text": "71 72 73 74 75 76 77 78 79 80"
+        },
+        {
+          "num": 3,
+          "text": ""
+        },
+        {
+          "num": 3,
+          "text": ""
+        },
+        {
+          "num": 4,
+          "text": ""
+        },
+        {
+          "num": 3,
+          "text": ""
+        },
+        {
+          "num": 3,
+          "text": ""
+        },
+        {
+          "num": 1,
+          "text": ""
+        },
+        {
+          "num": 2,
+          "text": ""
+        },
+        {
+          "num": 4,
+          "text": ""
+        },
+        {
+          "num": 4,
+          "text": ""
+        },
+        {
+          "num": 4,
+          "text": "81 82 83 84 85 86 87 88 89 90"
+        },
+        {
+          "num": 4,
+          "text": ""
+        },
+        {
+          "num": 3,
+          "text": ""
+        },
+        {
+          "num": 3,
+          "text": ""
+        },
+        {
+          "num": 2,
+          "text": ""
+        },
+        {
+          "num": 3,
+          "text": ""
+        },
+        {
+          "num": 4,
+          "text": ""
+        },
+        {
+          "num": 2,
+          "text": ""
+        },
+        {
+          "num": 2,
+          "text": ""
+        },
+        {
+          "num": 4,
+          "text": ""
+        },
+        {
+          "num": 1,
+          "text": "91 92 93 94 95 96 97 98 99 100"
+        },
+        {
+          "num": 4,
+          "text": ""
+        },
+        {
+          "num": 3,
+          "text": ""
+        },
+        {
+          "num": 4,
+          "text": ""
+        },
+        {
+          "num": 2,
+          "text": ""
+        },
+        {
+          "num": 1,
+          "text": ""
+        },
+        {
+          "num": 1,
+          "text": ""
+        },
+        {
+          "num": 4,
+          "text": ""
+        },
+        {
+          "num": 3,
+          "text": ""
+        },
+        {
+          "num": 3,
+          "text": ""
+        },
+        {
+          "num": 3,
+          "text": ""
+        }
+      ],
+      "correct_answer": 3,
+      "explanation": ""
+    }
+  ]
+}
