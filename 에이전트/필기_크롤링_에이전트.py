@@ -3,7 +3,8 @@
 """
 [에이전트 1] 정보보안기사 필기 기출문제 크롤링 에이전트
 출처: 전자문제집 CBT (comcbt.com/xe/ccw)
-원문 HWP 및 PDF 파일 다운로드, 본문 텍스트 아카이빙
+- HWP/PDF 원문 바이너리 -> 필기/기출문제/hwp/[회차]/
+- Markdown/Text 문서    -> 필기/기출문제/markdown/[회차]/
 """
 
 import os
@@ -20,7 +21,9 @@ HEADERS = {
 }
 
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUTPUT_DIR = os.path.join(PROJECT_ROOT, "필기", "기출문제")
+BASE_OUTPUT_DIR = os.path.join(PROJECT_ROOT, "필기", "기출문제")
+HWP_OUTPUT_DIR = os.path.join(BASE_OUTPUT_DIR, "hwp")
+MD_OUTPUT_DIR = os.path.join(BASE_OUTPUT_DIR, "markdown")
 
 
 def fetch_html(url, referer=None):
@@ -46,7 +49,6 @@ def download_file(file_url, save_path, referer=None, max_retries=3):
             req = urllib.request.Request(file_url, headers=headers)
             with urllib.request.urlopen(req, timeout=30) as resp:
                 data = resp.read()
-                # HTML 에러 페이지가 내려왔는지 검사
                 if len(data) < 500 and (b"<html" in data.lower() or b"<script" in data.lower()):
                     raise ValueError("HTML response received instead of binary file")
                 
@@ -81,14 +83,11 @@ def get_post_list():
                     title = a.get_text().strip()
                     href = a.get("href", "")
                     if "정보보안기사 필기 기출문제 및 CBT" in title and href not in seen_urls:
-                        # Full URL 정규화
                         if href.startswith("/"):
                             href = "https://www.comcbt.com" + href
                         elif not href.startswith("http"):
                             href = "https://www.comcbt.com/xe/" + href
 
-                        # 회차 정보 추출
-                        # 예: 정보보안기사 필기 기출문제 및 CBT 2023년 03월 11일(21회)
                         m = re.search(r'(\d{4})년\s*(\d{1,2})월\s*(\d{1,2})일.*?(\d{1,2})회', title)
                         if m:
                             year, month, day, round_num = m.group(1), m.group(2).zfill(2), m.group(3).zfill(2), int(m.group(4))
@@ -105,15 +104,16 @@ def get_post_list():
         except Exception as e:
             print(f"[!] 목록 조회 오류 ({p_url}): {e}")
 
-    # 회차 기준 오름차순 정렬 (1회 -> 21회)
     posts.sort(key=lambda x: x["round"])
     return posts
 
 
 def process_post(post):
-    """개별 게시글에서 첨부파일(HWP, PDF)과 본문 텍스트 추출"""
-    folder = os.path.join(OUTPUT_DIR, post["folder_name"])
-    os.makedirs(folder, exist_ok=True)
+    """HWP/PDF는 hwp/ 폴더에, 텍스트/마크다운은 markdown/ 폴더에 분리 저장"""
+    hwp_folder = os.path.join(HWP_OUTPUT_DIR, post["folder_name"])
+    md_folder = os.path.join(MD_OUTPUT_DIR, post["folder_name"])
+    os.makedirs(hwp_folder, exist_ok=True)
+    os.makedirs(md_folder, exist_ok=True)
 
     print(f"\n==================================================")
     print(f"[*] [{post['round']}회] {post['year']}년 {post['month']}월 ({post['folder_name']})")
@@ -126,15 +126,14 @@ def process_post(post):
         print(f"[!] 게시글 열기 실패: {e}")
         return False
 
-    # 본문 텍스트 백업 (토큰 친화적 파싱을 위한 원천 텍스트)
+    # 1. 텍스트 및 마크다운 생성 -> markdown/ 폴더에 저장
     content_div = soup.select_one(".xe_content, article, .document_content")
-    if content_div:
-        text_path = os.path.join(folder, "content.txt")
-        raw_text = content_div.get_text("\n")
-        with open(text_path, "w", encoding="utf-8") as f:
-            f.write(raw_text)
+    raw_text = content_div.get_text("\n") if content_div else ""
+    text_path = os.path.join(md_folder, "content.txt")
+    with open(text_path, "w", encoding="utf-8") as f:
+        f.write(raw_text)
 
-    # 첨부파일 링크 탐색
+    # 2. 첨부파일(HWP, PDF) -> hwp/ 폴더에 분리 저장
     downloaded_files = []
     seen_links = set()
 
@@ -146,35 +145,54 @@ def process_post(post):
             if href.startswith("/"):
                 href = "https://www.comcbt.com" + href
 
-            # 파일명 결정
             filename = text
             if not (filename.endswith(".hwp") or filename.endswith(".pdf") or filename.endswith(".zip")):
-                # href 내 또는 text 파싱
                 m = re.search(r'([^\s/]+\.(?:hwp|pdf|zip))', text, re.I)
                 if m:
                     filename = m.group(1)
                 else:
                     filename = f"{post['folder_name']}_attached_{len(downloaded_files)+1}.bin"
 
-            # 안전한 파일명 정리
             filename = re.sub(r'[\\/:*?"<>|]', '_', filename)
-            save_path = os.path.join(folder, filename)
+            save_path = os.path.join(hwp_folder, filename)
 
-            # 다운로드 실행
             success = download_file(href, save_path, referer=post["url"])
             if success:
                 downloaded_files.append(filename)
-            time.sleep(0.5)  # 서버 부하 방지 매너 딜레이
+            time.sleep(0.5)
 
-    print(f"[*] 다운로드 완료 파일: {downloaded_files}")
+    # 3. markdown/ 폴더에 안내 마크다운 문서 기출문제.md 생성
+    md_file_path = os.path.join(md_folder, "기출문제.md")
+    md_lines = [
+        f"# 정보보안기사 필기 제{post['round']}회 ({post['year']}년 {post['month']}월)\n",
+        f"* **시험 구분:** 국가기술자격 정보보안기사 필기",
+        f"* **문항 구성:** 총 100문항 (과목당 20문항, 4지 선다형)\n",
+        "## 과목별 구성",
+        "1. 제1과목: 시스템 보안 (1번 ~ 20번)",
+        "2. 제2과목: 네트워크 보안 (21번 ~ 40번)",
+        "3. 제3과목: 애플리케이션 보안 (41번 ~ 60번)",
+        "4. 제4과목: 정보보안 일반 (61번 ~ 80번)",
+        "5. 제5과목: 정보보안 관리 및 법규 (81번 ~ 100번)\n",
+        "## 원문 다운로드 파일 (HWP / PDF)",
+        f"본 회차의 원문 파일은 `../hwp/{post['folder_name']}/` 에 보관되어 있습니다.\n"
+    ]
+    for df in sorted(downloaded_files):
+        md_lines.append(f"* [`{df}`](../hwp/{post['folder_name']}/{df})")
+    
+    with open(md_file_path, "w", encoding="utf-8") as f:
+        f.write("\n".join(md_lines))
+
+    print(f"[*] HWP/PDF 파일 ({len(downloaded_files)}개) -> {hwp_folder}")
+    print(f"[*] Markdown 문서 -> {md_folder}")
     return len(downloaded_files) > 0
 
 
 def main():
     print("=" * 60)
-    print(" 정보보안기사 필기 기출문제 크롤링 에이전트 시작")
+    print(" 정보보안기사 필기 기출문제 크롤링 에이전트 시작 (HWP / MD 분리 저장)")
     print("=" * 60)
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    os.makedirs(HWP_OUTPUT_DIR, exist_ok=True)
+    os.makedirs(MD_OUTPUT_DIR, exist_ok=True)
 
     posts = get_post_list()
     print(f"\n[+] 총 {len(posts)}개 회차 발굴 완료 (1회 ~ {posts[-1]['round'] if posts else 0}회)")
@@ -184,11 +202,12 @@ def main():
         ok = process_post(p)
         if ok:
             success_count += 1
-        time.sleep(1)  # 회차별 1초 대기
+        time.sleep(0.5)
 
     print("\n" + "=" * 60)
     print(f"[*] 필기 기출 크롤링 완료: {success_count}/{len(posts)} 회차 처리됨")
-    print(f"[*] 저장 위치: {OUTPUT_DIR}")
+    print(f"[*] HWP 파일 위치: {HWP_OUTPUT_DIR}")
+    print(f"[*] Markdown 문서 위치: {MD_OUTPUT_DIR}")
     print("=" * 60)
 
 

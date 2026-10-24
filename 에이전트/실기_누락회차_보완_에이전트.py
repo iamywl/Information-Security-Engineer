@@ -9,7 +9,7 @@ import os
 import json
 
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-OUTPUT_DIR = os.path.join(PROJECT_ROOT, "실기", "기출문제")
+OUTPUT_DIR = os.path.join(PROJECT_ROOT, "실기", "기출문제", "markdown")
 
 SUPPLEMENTAL_DATA = {
     1: {
